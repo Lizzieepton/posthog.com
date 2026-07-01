@@ -74,7 +74,7 @@ const sections = [
                 columns: [
                     ['web_analytics', 'product_analytics', 'trends'],
                     ['funnels', 'user_paths', 'lifecycle', 'heatmaps'],
-                    ['llm_traces', 'llm_generations', 'llm_evals', 'activity'],
+                    ['ai_observability', 'llm_evals', 'activity'],
                 ],
             },
             {
@@ -315,7 +315,7 @@ export default function ProductsTest(): JSX.Element {
                             imgClassName="@xl:float-right @xl:!ml-4 w-60 @xl:w-48 @3xl:w-60 @xl:mt-4 @3xl:!ml-8 @3xl:!-mr-4"
                         />
                         <h1 className="text-2xl @lg:text-3xl font-bold leading-tight">
-                            Devtools and product data infrastructure for building successful products
+                            Devtools and product data infrastructure for building self-driving products
                         </h1>
                         <p className="text-lg leading-relaxed">
                             Humans and AI agents build with PostHog because everything you need to collect and analyze
