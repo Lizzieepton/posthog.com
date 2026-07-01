@@ -81,6 +81,7 @@ export const LOGOS = {
     mistral: 'https://res.cloudinary.com/dmukukwp6/image/upload/mistral_551c75e2dd.svg',
     moengage: 'https://res.cloudinary.com/dmukukwp6/image/upload/w_200,c_limit,q_auto,f_auto/1_95b73543_367f4ea0bc.png',
     mongodb: 'https://res.cloudinary.com/dmukukwp6/image/upload/Mongo_DB_Logo_f095b5aca0.svg',
+    mollie: 'https://res.cloudinary.com/dmukukwp6/image/upload/mollie_logo_f3e47c8d2a.svg',
     mysql: 'https://res.cloudinary.com/dmukukwp6/image/upload/mysql_logo_0ce3cfe493.svg',
     n8n: 'https://res.cloudinary.com/dmukukwp6/image/upload/n8n_color_ce6a4e9c92.svg',
     nestjs: 'https://res.cloudinary.com/dmukukwp6/image/upload/nestjs_logo_034b054f38.svg',
