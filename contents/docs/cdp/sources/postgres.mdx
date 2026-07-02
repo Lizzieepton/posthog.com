@@ -417,6 +417,12 @@ REFRESH MATERIALIZED VIEW "your_view_name";
 
 After refreshing, re-enable the sync in PostHog.
 
+### `exceeded the compute time quota`
+
+This error occurs with serverless Postgres providers like Neon when the account or project has exceeded its compute-time quota. The provider suspends the database until the quota resets at the next billing period or the plan is upgraded.
+
+To fix this, upgrade your provider's plan or wait for the quota to reset, then re-enable the sync in PostHog.
+
 ### `cannot call jsonb_each on a non-object`
 
 This error occurs when syncing a view or materialized view whose definition calls `jsonb_each()` or `jsonb_each_text()` on a JSONB column that contains non-object values (such as arrays, scalars, or `null`) for at least one row. PostgreSQL evaluates the view at fetch time, and the `jsonb_each()` function fails on non-object values.
@@ -431,5 +437,19 @@ WHERE jsonb_typeof(your_column) = 'object'
 ```
 
 Alternatively, remove the problematic view from your sync selection in PostHog.
+
+### `Network is unreachable` or `No route to host`
+
+This error occurs when PostHog has no network route to your PostgreSQL host. The connection fails before reaching the database, typically because the host resolves to a private or non-routable address.
+
+This is a non-retryable error — PostHog stops syncing until you fix the underlying issue and re-enable the sync or CDC.
+
+Common causes:
+
+- The hostname resolves to a private IP address (like `10.x.x.x`, `172.16.x.x`, or `192.168.x.x`) or an unreachable IPv6 address.
+- The hostname is misconfigured or doesn't resolve to a publicly accessible address.
+- Your database server's firewall blocks connections from PostHog's IP addresses.
+
+To fix this, verify your PostgreSQL host resolves to a reachable IPv4 address, ensure your firewall allows inbound connections from PostHog's IP addresses, and if your database is on a private network, configure an SSH tunnel during source setup. PostHog doesn't support IPv6 connections, so if your host only resolves to an IPv6 address, configure it to be accessible via IPv4.
 
 > **Looking for an example of the Postgres source?** Check out our tutorial where we [connect and query Supabase data](/tutorials/supabase-query).
