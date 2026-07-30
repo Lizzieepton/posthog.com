@@ -600,7 +600,7 @@ export default function useProduct({ handle }: { handle?: string } = {}) {
             color: 'blue',
             colorSecondary: 'lilac',
             category: 'data',
-            slug: 'data-stack',
+            slug: 'context-warehouse',
             seo: {
                 title: 'Unify external customer data with product usage data',
                 description: 'Analyze product and customer data in PostHog – no matter where it was generated.',
@@ -730,7 +730,7 @@ export default function useProduct({ handle }: { handle?: string } = {}) {
             color: 'purple',
             colorSecondary: 'lilac',
             category: 'data',
-            slug: 'data-stack/business-intelligence',
+            slug: 'context-warehouse/business-intelligence',
             overview: {
                 title: 'Business intelligence for data-driven teams',
                 description:
@@ -2619,7 +2619,7 @@ export default function useProduct({ handle }: { handle?: string } = {}) {
             color: 'green',
             colorSecondary: 'lilac',
             category: 'data',
-            slug: 'data-stack/sources',
+            slug: 'context-warehouse/sources',
             seo: {
                 title: 'PostHog provides multiple ways to ingest data from various sources',
                 description: "It's easy to centralize all your customer and product data in one place.",
@@ -2634,7 +2634,7 @@ export default function useProduct({ handle }: { handle?: string } = {}) {
             color: 'lilac',
             colorSecondary: 'lilac',
             category: 'data',
-            slug: 'data-stack/posthog-ai',
+            slug: 'context-warehouse/posthog-ai',
             seo: {
                 title: 'PostHog AI - PostHog data stack',
                 description:
@@ -2650,7 +2650,7 @@ export default function useProduct({ handle }: { handle?: string } = {}) {
             color: 'red',
             colorSecondary: 'red',
             category: 'data',
-            slug: 'data-stack/data-modeling',
+            slug: 'context-warehouse/data-modeling',
             status: 'beta',
             seo: {
                 title: 'Transform, enrich, and model your data',
@@ -2685,7 +2685,7 @@ export default function useProduct({ handle }: { handle?: string } = {}) {
             name: 'SQL editor',
             handle: 'sql_editor',
             type: 'sql_editor',
-            slug: 'data-stack/sql-editor',
+            slug: 'context-warehouse/sql-editor',
             color: 'red',
             colorSecondary: 'lilac',
             category: 'data',
@@ -2738,7 +2738,7 @@ export default function useProduct({ handle }: { handle?: string } = {}) {
             color: 'orange',
             colorSecondary: 'orange',
             category: 'data',
-            slug: 'data-stack/reverse-etl-export',
+            slug: 'context-warehouse/reverse-etl-export',
             status: 'alpha',
             seo: {
                 title: 'Export and stream your data to external systems',
