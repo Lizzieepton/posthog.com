@@ -3,26 +3,16 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 
 /**
- * Generate `.md` twins for docs redirects.
+ * Mirror every literal /docs/ redirect onto its `.md` sibling.
  *
- * Every docs page is served twice: the HTML route, and a `.md` sibling written
- * by `generateRawMarkdownPages()` (gatsby/rawMarkdownUtils.ts) from the built
- * HTML. They are separate files on disk.
+ * Docs `.md` files are separate files from the HTML pages, and vercel.json
+ * matches redirects literally — so `/docs/a/b` never covers `/docs/a/b.md`,
+ * and moved pages 404 there. Splat sources already match both.
  *
- * Redirects in vercel.json are matched against literal paths, so a redirect
- * written for `/docs/a/b` never matches `/docs/a/b.md`. When a page moves, the
- * HTML redirects correctly and the `.md` 404s — silently, because nothing
- * renders a `.md` page for a human to notice.
+ * Idempotent. Re-run after adding redirects and commit the result.
  *
- * Splat sources like `/docs/llm-analytics/:path*` do match `.md` (a `.` is an
- * ordinary character inside a path segment), which is why some moves survive
- * and others don't. This script closes the gap for the literal ones.
- *
- * Idempotent — re-run it after adding redirects and commit the result.
- *
- * Usage:
  *   node scripts/generate-md-redirects.js          # rewrite vercel.json
- *   node scripts/generate-md-redirects.js --check  # exit 1 if out of date (CI)
+ *   node scripts/generate-md-redirects.js --check  # exit 1 if out of date
  */
 
 const fs = require('fs')
