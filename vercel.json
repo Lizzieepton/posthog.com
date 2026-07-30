@@ -185,13 +185,28 @@
             "statusCode": 301
         },
         {
+            "source": "/docs/web-analytics/getting-started.md",
+            "destination": "/docs/web-analytics/start-here.md",
+            "statusCode": 301
+        },
+        {
             "source": "/docs/web-analytics/query-traffic-mcp",
             "destination": "/docs/web-analytics/surfaces/mcp",
             "statusCode": 301
         },
         {
+            "source": "/docs/web-analytics/query-traffic-mcp.md",
+            "destination": "/docs/web-analytics/surfaces/mcp.md",
+            "statusCode": 301
+        },
+        {
             "source": "/docs/product-analytics/build-insights-mcp",
             "destination": "/docs/product-analytics/surfaces/mcp",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/product-analytics/build-insights-mcp.md",
+            "destination": "/docs/product-analytics/surfaces/mcp.md",
             "statusCode": 301
         },
         {
@@ -220,8 +235,18 @@
             "statusCode": 301
         },
         {
+            "source": "/docs/sdk-doctor/keeping-sdks-current.md",
+            "destination": "/docs/health-checks/keeping-sdks-current.md",
+            "statusCode": 301
+        },
+        {
             "source": "/docs/sdk-doctor",
             "destination": "/docs/health-checks/sdk-health",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/sdk-doctor.md",
+            "destination": "/docs/health-checks/sdk-health.md",
             "statusCode": 301
         },
         {
@@ -238,8 +263,17 @@
             "statusCode": 301
         },
         {
+            "source": "/docs/prompt-management/skills-store.md",
+            "destination": "/docs/ai-engineering/skills-store.md",
+            "statusCode": 301
+        },
+        {
             "source": "/docs/site-apps",
             "destination": "/docs/js-snippets"
+        },
+        {
+            "source": "/docs/site-apps.md",
+            "destination": "/docs/js-snippets.md"
         },
         {
             "source": "/docs/site-apps/:path*",
@@ -297,6 +331,11 @@
             "statusCode": 301
         },
         {
+            "source": "/docs/start-here.md",
+            "destination": "/docs/self-driving.md",
+            "statusCode": 301
+        },
+        {
             "source": "/docs/start-here/:path*",
             "destination": "/docs/self-driving/:path*",
             "statusCode": 301
@@ -307,8 +346,18 @@
             "statusCode": 301
         },
         {
+            "source": "/docs/product-os.md",
+            "destination": "/docs/self-driving.md",
+            "statusCode": 301
+        },
+        {
             "source": "/docs/self-driving/responders",
             "destination": "/docs/self-driving/inbox",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/self-driving/responders.md",
+            "destination": "/docs/self-driving/inbox.md",
             "statusCode": 301
         },
         {
@@ -317,8 +366,18 @@
             "statusCode": 301
         },
         {
+            "source": "/docs/self-driving/guardrails.md",
+            "destination": "/docs/self-driving.md",
+            "statusCode": 301
+        },
+        {
             "source": "/docs/self-driving/autonomy-loop",
             "destination": "/docs/self-driving/self-improving-loop",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/self-driving/autonomy-loop.md",
+            "destination": "/docs/self-driving/self-improving-loop.md",
             "statusCode": 301
         },
         {
@@ -327,8 +386,18 @@
             "statusCode": 301
         },
         {
+            "source": "/docs/product-analytics/sampling.md",
+            "destination": "/docs/product-analytics.md",
+            "statusCode": 301
+        },
+        {
             "source": "/docs/api/product-tours",
             "destination": "/docs/api",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/api/product-tours.md",
+            "destination": "/docs/api.md",
             "statusCode": 301
         },
         {
@@ -472,6 +541,11 @@
             "statusCode": 301
         },
         {
+            "source": "/docs/tracing.md",
+            "destination": "/docs/distributed-tracing.md",
+            "statusCode": 301
+        },
+        {
             "source": "/docs/tracing/:path*",
             "destination": "/docs/distributed-tracing/:path*",
             "statusCode": 301
@@ -482,13 +556,28 @@
             "statusCode": 301
         },
         {
+            "source": "/docs/posthog-code/inbox/triage.md",
+            "destination": "/docs/self-driving/inbox/implementation.md",
+            "statusCode": 301
+        },
+        {
             "source": "/docs/posthog-code/inbox/triage/",
             "destination": "/docs/self-driving/inbox/implementation",
             "statusCode": 301
         },
         {
+            "source": "/docs/posthog-code/inbox/triage/.md",
+            "destination": "/docs/self-driving/inbox/implementation.md",
+            "statusCode": 301
+        },
+        {
             "source": "/docs/posthog-code/inbox",
             "destination": "/docs/self-driving/inbox",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/posthog-code/inbox.md",
+            "destination": "/docs/self-driving/inbox.md",
             "statusCode": 301
         },
         {
@@ -502,8 +591,18 @@
             "statusCode": 301
         },
         {
+            "source": "/docs/self-driving/first-task.md",
+            "destination": "/docs/self-driving/inbox.md",
+            "statusCode": 301
+        },
+        {
             "source": "/docs/posthog-code/quick-tour",
             "destination": "/docs/posthog-desktop",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/posthog-code/quick-tour.md",
+            "destination": "/docs/posthog-desktop.md",
             "statusCode": 301
         },
         {
@@ -511,116 +610,232 @@
             "destination": "/docs/libraries/android"
         },
         {
+            "source": "/docs/integrations/android-integration.md",
+            "destination": "/docs/libraries/android.md"
+        },
+        {
             "source": "/docs/integrations/community",
             "destination": "/docs/libraries/community"
+        },
+        {
+            "source": "/docs/integrations/community.md",
+            "destination": "/docs/libraries/community.md"
         },
         {
             "source": "/docs/integrations/docusaurus-integration",
             "destination": "/docs/libraries/docusaurus"
         },
         {
+            "source": "/docs/integrations/docusaurus-integration.md",
+            "destination": "/docs/libraries/docusaurus.md"
+        },
+        {
             "source": "/docs/integrations/elixir-integration",
             "destination": "/docs/libraries/elixir"
+        },
+        {
+            "source": "/docs/integrations/elixir-integration.md",
+            "destination": "/docs/libraries/elixir.md"
         },
         {
             "source": "/docs/integrations/flutter-integration",
             "destination": "/docs/libraries/flutter"
         },
         {
+            "source": "/docs/integrations/flutter-integration.md",
+            "destination": "/docs/libraries/flutter.md"
+        },
+        {
             "source": "/docs/integrations/gatsby-integration",
             "destination": "/docs/libraries/gatsby"
+        },
+        {
+            "source": "/docs/integrations/gatsby-integration.md",
+            "destination": "/docs/libraries/gatsby.md"
         },
         {
             "source": "/docs/integrations/go-integration",
             "destination": "/docs/libraries/go"
         },
         {
+            "source": "/docs/integrations/go-integration.md",
+            "destination": "/docs/libraries/go.md"
+        },
+        {
             "source": "/docs/integrations/ios-integration",
             "destination": "/docs/libraries/ios"
+        },
+        {
+            "source": "/docs/integrations/ios-integration.md",
+            "destination": "/docs/libraries/ios.md"
         },
         {
             "source": "/docs/integrations/javascript-integration",
             "destination": "/docs/libraries/js"
         },
         {
+            "source": "/docs/integrations/javascript-integration.md",
+            "destination": "/docs/libraries/js.md"
+        },
+        {
             "source": "/docs/integrations/js-integration",
             "destination": "/docs/libraries/js"
+        },
+        {
+            "source": "/docs/integrations/js-integration.md",
+            "destination": "/docs/libraries/js.md"
         },
         {
             "source": "/docs/integrations/message-formatting",
             "destination": "/docs/cdp/destinations/webhook"
         },
         {
+            "source": "/docs/integrations/message-formatting.md",
+            "destination": "/docs/cdp/destinations/webhook.md"
+        },
+        {
             "source": "/docs/libraries/message-formatting",
             "destination": "/docs/cdp/destinations/webhook"
+        },
+        {
+            "source": "/docs/libraries/message-formatting.md",
+            "destination": "/docs/cdp/destinations/webhook.md"
         },
         {
             "source": "/docs/libraries/microsoft-teams",
             "destination": "/docs/integrate/webhooks/microsoft-teams"
         },
         {
+            "source": "/docs/libraries/microsoft-teams.md",
+            "destination": "/docs/integrate/webhooks/microsoft-teams.md"
+        },
+        {
             "source": "/docs/integrate/webhooks/message-formatting",
             "destination": "/docs/cdp/destinations/webhook"
+        },
+        {
+            "source": "/docs/integrate/webhooks/message-formatting.md",
+            "destination": "/docs/cdp/destinations/webhook.md"
         },
         {
             "source": "/docs/webhooks/message-formatting",
             "destination": "/docs/cdp/destinations/webhook"
         },
         {
+            "source": "/docs/webhooks/message-formatting.md",
+            "destination": "/docs/cdp/destinations/webhook.md"
+        },
+        {
             "source": "/docs/integrate/webhooks/microsoft-teams",
             "destination": "/docs/cdp/destinations/webhook"
+        },
+        {
+            "source": "/docs/integrate/webhooks/microsoft-teams.md",
+            "destination": "/docs/cdp/destinations/webhook.md"
         },
         {
             "source": "/docs/integrate/webhooks/discord",
             "destination": "/docs/cdp/destinations/webhook"
         },
         {
+            "source": "/docs/integrate/webhooks/discord.md",
+            "destination": "/docs/cdp/destinations/webhook.md"
+        },
+        {
             "source": "/docs/integrate/webhooks/slack",
             "destination": "/docs/cdp/destinations/slack"
+        },
+        {
+            "source": "/docs/integrate/webhooks/slack.md",
+            "destination": "/docs/cdp/destinations/slack.md"
         },
         {
             "source": "/docs/integrations/microsoft-teams",
             "destination": "/docs/libraries/microsoft-teams"
         },
         {
+            "source": "/docs/integrations/microsoft-teams.md",
+            "destination": "/docs/libraries/microsoft-teams.md"
+        },
+        {
             "source": "/docs/integrations/node-integration",
             "destination": "/docs/libraries/node"
+        },
+        {
+            "source": "/docs/integrations/node-integration.md",
+            "destination": "/docs/libraries/node.md"
         },
         {
             "source": "/docs/integrations/php-integration",
             "destination": "/docs/libraries/php"
         },
         {
+            "source": "/docs/integrations/php-integration.md",
+            "destination": "/docs/libraries/php.md"
+        },
+        {
             "source": "/docs/integrations/python-integration",
             "destination": "/docs/libraries/python"
+        },
+        {
+            "source": "/docs/integrations/python-integration.md",
+            "destination": "/docs/libraries/python.md"
         },
         {
             "source": "/docs/integrations/react-native-integration",
             "destination": "/docs/libraries/react-native"
         },
         {
+            "source": "/docs/integrations/react-native-integration.md",
+            "destination": "/docs/libraries/react-native.md"
+        },
+        {
             "source": "/docs/integrations/ruby-integration",
             "destination": "/docs/libraries/ruby"
+        },
+        {
+            "source": "/docs/integrations/ruby-integration.md",
+            "destination": "/docs/libraries/ruby.md"
         },
         {
             "source": "/docs/integrations/rudderstack-integration",
             "destination": "/docs/libraries/rudderstack"
         },
         {
+            "source": "/docs/integrations/rudderstack-integration.md",
+            "destination": "/docs/libraries/rudderstack.md"
+        },
+        {
             "source": "/docs/integrations/segment-integration",
             "destination": "/docs/libraries/segment"
+        },
+        {
+            "source": "/docs/integrations/segment-integration.md",
+            "destination": "/docs/libraries/segment.md"
         },
         {
             "source": "/docs/integrations/sentry-integration",
             "destination": "/docs/error-tracking"
         },
         {
+            "source": "/docs/integrations/sentry-integration.md",
+            "destination": "/docs/error-tracking.md"
+        },
+        {
             "source": "/docs/integrations/slack",
             "destination": "/docs/libraries/slack"
         },
         {
+            "source": "/docs/integrations/slack.md",
+            "destination": "/docs/libraries/slack.md"
+        },
+        {
             "source": "/docs/posthog-code/slack",
             "destination": "/docs/slack"
+        },
+        {
+            "source": "/docs/posthog-code/slack.md",
+            "destination": "/docs/slack.md"
         },
         {
             "source": "/docs/posthog-code/download-posthog-code",
@@ -628,8 +843,18 @@
             "statusCode": 301
         },
         {
+            "source": "/docs/posthog-code/download-posthog-code.md",
+            "destination": "/docs/posthog-desktop/download-posthog-desktop.md",
+            "statusCode": 301
+        },
+        {
             "source": "/docs/posthog-code",
             "destination": "/docs/posthog-desktop",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/posthog-code.md",
+            "destination": "/docs/posthog-desktop.md",
             "statusCode": 301
         },
         {
@@ -640,6 +865,10 @@
         {
             "source": "/docs/slack-app",
             "destination": "/docs/slack"
+        },
+        {
+            "source": "/docs/slack-app.md",
+            "destination": "/docs/slack.md"
         },
         {
             "source": "/handbook/company/structure",
@@ -678,8 +907,16 @@
             "destination": "/docs/apps/build"
         },
         {
+            "source": "/docs/plugins/build/overview.md",
+            "destination": "/docs/apps/build.md"
+        },
+        {
             "source": "/docs/plugins/types",
             "destination": "/docs/apps/build/types"
+        },
+        {
+            "source": "/docs/plugins/types.md",
+            "destination": "/docs/apps/build/types.md"
         },
         {
             "source": "/docs/developing-locally",
@@ -694,104 +931,208 @@
             "destination": "/docs/contributing/project-structure"
         },
         {
+            "source": "/docs/project-structure.md",
+            "destination": "/docs/contributing/project-structure.md"
+        },
+        {
             "source": "/docs/recognizing-contributions",
             "destination": "/docs/contributing/recognizing-contributions"
+        },
+        {
+            "source": "/docs/recognizing-contributions.md",
+            "destination": "/docs/contributing/recognizing-contributions.md"
         },
         {
             "source": "/docs/stack",
             "destination": "/docs/contributing/stack"
         },
         {
+            "source": "/docs/stack.md",
+            "destination": "/docs/contributing/stack.md"
+        },
+        {
             "source": "/docs/updating-documentation",
             "destination": "/docs/contributing/updating-documentation"
+        },
+        {
+            "source": "/docs/updating-documentation.md",
+            "destination": "/docs/contributing/updating-documentation.md"
         },
         {
             "source": "/docs/configuring-posthog/scaling-posthog",
             "destination": "/docs/self-host"
         },
         {
+            "source": "/docs/configuring-posthog/scaling-posthog.md",
+            "destination": "/docs/self-host.md"
+        },
+        {
             "source": "/docs/self-host/overview",
             "destination": "/docs/self-host"
+        },
+        {
+            "source": "/docs/self-host/overview.md",
+            "destination": "/docs/self-host.md"
         },
         {
             "source": "/docs/deployment",
             "destination": "/docs/self-host"
         },
         {
+            "source": "/docs/deployment.md",
+            "destination": "/docs/self-host.md"
+        },
+        {
             "source": "/docs/self-host/configure",
             "destination": "/docs/self-host"
+        },
+        {
+            "source": "/docs/self-host/configure.md",
+            "destination": "/docs/self-host.md"
         },
         {
             "source": "/docs/configuring-posthog",
             "destination": "/docs/self-host/configure"
         },
         {
+            "source": "/docs/configuring-posthog.md",
+            "destination": "/docs/self-host/configure.md"
+        },
+        {
             "source": "/docs/features/log-in-with-github-gitlab",
             "destination": "/docs/user-guides/sso"
+        },
+        {
+            "source": "/docs/features/log-in-with-github-gitlab.md",
+            "destination": "/docs/user-guides/sso.md"
         },
         {
             "source": "/docs/contributing",
             "destination": "/docs/contribute"
         },
         {
+            "source": "/docs/contributing.md",
+            "destination": "/docs/contribute.md"
+        },
+        {
             "source": "/docs/contributing/project-structure",
             "destination": "/docs/contribute/project-structure"
+        },
+        {
+            "source": "/docs/contributing/project-structure.md",
+            "destination": "/docs/contribute/project-structure.md"
         },
         {
             "source": "/docs/contributing/recognizing-contributions",
             "destination": "/docs/contribute/recognizing-contributions"
         },
         {
+            "source": "/docs/contributing/recognizing-contributions.md",
+            "destination": "/docs/contribute/recognizing-contributions.md"
+        },
+        {
             "source": "/docs/contributing/stack",
             "destination": "/docs/contribute/stack"
+        },
+        {
+            "source": "/docs/contributing/stack.md",
+            "destination": "/docs/contribute/stack.md"
         },
         {
             "source": "/docs/contributing/updating-documentation",
             "destination": "/docs/contribute/updating-documentation"
         },
         {
+            "source": "/docs/contributing/updating-documentation.md",
+            "destination": "/docs/contribute/updating-documentation.md"
+        },
+        {
             "source": "/docs/tutorials/1-minute/integrate-with-gtm",
             "destination": "/docs/integrate/google-tag-manager"
+        },
+        {
+            "source": "/docs/tutorials/1-minute/integrate-with-gtm.md",
+            "destination": "/docs/integrate/google-tag-manager.md"
         },
         {
             "source": "/docs/tutorials/1-minute/integrate-with-metabase",
             "destination": "/docs/integrate/metabase"
         },
         {
+            "source": "/docs/tutorials/1-minute/integrate-with-metabase.md",
+            "destination": "/docs/integrate/metabase.md"
+        },
+        {
             "source": "/docs/tutorials/1-minute/integrate-with-nuxt-js",
             "destination": "/docs/integrate/nuxt-js"
+        },
+        {
+            "source": "/docs/tutorials/1-minute/integrate-with-nuxt-js.md",
+            "destination": "/docs/integrate/nuxt-js.md"
         },
         {
             "source": "/docs/tutorials/1-minute/integrate-with-retool",
             "destination": "/docs/integrate/retool"
         },
         {
+            "source": "/docs/tutorials/1-minute/integrate-with-retool.md",
+            "destination": "/docs/integrate/retool.md"
+        },
+        {
             "source": "/docs/tutorials/1-minute/integrate-with-shopify",
             "destination": "/docs/integrate/shopify"
+        },
+        {
+            "source": "/docs/tutorials/1-minute/integrate-with-shopify.md",
+            "destination": "/docs/integrate/shopify.md"
         },
         {
             "source": "/docs/tutorials/1-minute/integrate-with-wordpress",
             "destination": "/docs/integrate/wordpress"
         },
         {
+            "source": "/docs/tutorials/1-minute/integrate-with-wordpress.md",
+            "destination": "/docs/integrate/wordpress.md"
+        },
+        {
             "source": "/docs/configuring-posthog/email",
             "destination": "/docs/self-host/configure/email"
+        },
+        {
+            "source": "/docs/configuring-posthog/email.md",
+            "destination": "/docs/self-host/configure/email.md"
         },
         {
             "source": "/docs/configuring-posthog/environment-variables",
             "destination": "/docs/self-host/configure/environment-variables"
         },
         {
+            "source": "/docs/configuring-posthog/environment-variables.md",
+            "destination": "/docs/self-host/configure/environment-variables.md"
+        },
+        {
             "source": "/docs/configuring-posthog/running-behind-proxy",
             "destination": "/docs/self-host/configure/running-behind-proxy"
+        },
+        {
+            "source": "/docs/configuring-posthog/running-behind-proxy.md",
+            "destination": "/docs/self-host/configure/running-behind-proxy.md"
         },
         {
             "source": "/docs/configuring-posthog/securing-posthog",
             "destination": "/docs/self-host/configure/securing-posthog"
         },
         {
+            "source": "/docs/configuring-posthog/securing-posthog.md",
+            "destination": "/docs/self-host/configure/securing-posthog.md"
+        },
+        {
             "source": "/docs/configuring-posthog/upgrading-posthog",
             "destination": "/docs/self-host/configure/upgrading-posthog"
+        },
+        {
+            "source": "/docs/configuring-posthog/upgrading-posthog.md",
+            "destination": "/docs/self-host/configure/upgrading-posthog.md"
         },
         {
             "source": "/docs/deployment/:path*",
@@ -806,56 +1147,112 @@
             "destination": "/docs/tutorials/deleting-data"
         },
         {
+            "source": "/docs/configuring-posthog/deleting-data.md",
+            "destination": "/docs/tutorials/deleting-data.md"
+        },
+        {
             "source": "/docs/features/actions",
             "destination": "/docs/data/actions"
+        },
+        {
+            "source": "/docs/features/actions.md",
+            "destination": "/docs/data/actions.md"
         },
         {
             "source": "/docs/features/annotations",
             "destination": "/docs/user-guides/annotations"
         },
         {
+            "source": "/docs/features/annotations.md",
+            "destination": "/docs/user-guides/annotations.md"
+        },
+        {
             "source": "/docs/application-settings",
             "destination": "/docs/user-guides/application-settings"
+        },
+        {
+            "source": "/docs/application-settings.md",
+            "destination": "/docs/user-guides/application-settings.md"
         },
         {
             "source": "/docs/features/cohorts",
             "destination": "/docs/user-guides/cohorts"
         },
         {
+            "source": "/docs/features/cohorts.md",
+            "destination": "/docs/user-guides/cohorts.md"
+        },
+        {
             "source": "/docs/features/dashboards",
             "destination": "/docs/user-guides/dashboards"
+        },
+        {
+            "source": "/docs/features/dashboards.md",
+            "destination": "/docs/user-guides/dashboards.md"
         },
         {
             "source": "/docs/features/events",
             "destination": "/docs/user-guides/events"
         },
         {
+            "source": "/docs/features/events.md",
+            "destination": "/docs/user-guides/events.md"
+        },
+        {
             "source": "/docs/features/funnels",
             "destination": "/docs/user-guides/funnels"
+        },
+        {
+            "source": "/docs/features/funnels.md",
+            "destination": "/docs/user-guides/funnels.md"
         },
         {
             "source": "/docs/features/organizations",
             "destination": "/docs/user-guides/organizations"
         },
         {
+            "source": "/docs/features/organizations.md",
+            "destination": "/docs/user-guides/organizations.md"
+        },
+        {
             "source": "/docs/features/paths",
             "destination": "/docs/user-guides/paths"
+        },
+        {
+            "source": "/docs/features/paths.md",
+            "destination": "/docs/user-guides/paths.md"
         },
         {
             "source": "/docs/features/plugins",
             "destination": "/docs/apps"
         },
         {
+            "source": "/docs/features/plugins.md",
+            "destination": "/docs/apps.md"
+        },
+        {
             "source": "/docs/features/projects",
             "destination": "/docs/user-guides/projects"
+        },
+        {
+            "source": "/docs/features/projects.md",
+            "destination": "/docs/user-guides/projects.md"
         },
         {
             "source": "/docs/features/retention",
             "destination": "/docs/user-guides/retention"
         },
         {
+            "source": "/docs/features/retention.md",
+            "destination": "/docs/user-guides/retention.md"
+        },
+        {
             "source": "/docs/features/session-recording",
             "destination": "/docs/user-guides/session-recording"
+        },
+        {
+            "source": "/docs/features/session-recording.md",
+            "destination": "/docs/user-guides/session-recording.md"
         },
         {
             "source": "/docs/features/sessions",
@@ -866,24 +1263,48 @@
             "destination": "/docs/user-guides/toolbar"
         },
         {
+            "source": "/docs/features/toolbar.md",
+            "destination": "/docs/user-guides/toolbar.md"
+        },
+        {
             "source": "/docs/features/trends",
             "destination": "/docs/user-guides/trends"
+        },
+        {
+            "source": "/docs/features/trends.md",
+            "destination": "/docs/user-guides/trends.md"
         },
         {
             "source": "/docs/features/users",
             "destination": "/docs/user-guides/users"
         },
         {
+            "source": "/docs/features/users.md",
+            "destination": "/docs/user-guides/users.md"
+        },
+        {
             "source": "/docs/tutorials/overview",
             "destination": "/docs/tutorials"
+        },
+        {
+            "source": "/docs/tutorials/overview.md",
+            "destination": "/docs/tutorials.md"
         },
         {
             "source": "/docs/features",
             "destination": "/docs/user-guides"
         },
         {
+            "source": "/docs/features.md",
+            "destination": "/docs/user-guides.md"
+        },
+        {
             "source": "/docs/tutorials/1-minute/survey",
             "destination": "/docs/tutorials/survey"
+        },
+        {
+            "source": "/docs/tutorials/1-minute/survey.md",
+            "destination": "/docs/tutorials/survey.md"
         },
         {
             "source": "/features",
@@ -894,8 +1315,16 @@
             "destination": "/docs/integrate"
         },
         {
+            "source": "/docs/integrate/overview.md",
+            "destination": "/docs/integrate.md"
+        },
+        {
             "source": "/docs/integrations",
             "destination": "/docs/integrate"
+        },
+        {
+            "source": "/docs/integrations.md",
+            "destination": "/docs/integrate.md"
         },
         {
             "source": "/signup",
@@ -906,28 +1335,56 @@
             "destination": "/docs/tutorials/event-tracking-guide"
         },
         {
+            "source": "/docs/tutorials/actions.md",
+            "destination": "/docs/tutorials/event-tracking-guide.md"
+        },
+        {
             "source": "/docs/plugins/overview",
             "destination": "/docs/apps"
+        },
+        {
+            "source": "/docs/plugins/overview.md",
+            "destination": "/docs/apps.md"
         },
         {
             "source": "/docs/api/overview",
             "destination": "/docs/api"
         },
         {
+            "source": "/docs/api/overview.md",
+            "destination": "/docs/api.md"
+        },
+        {
             "source": "/docs/api/post-only-endpoints",
             "destination": "/docs/api/capture"
+        },
+        {
+            "source": "/docs/api/post-only-endpoints.md",
+            "destination": "/docs/api/capture.md"
         },
         {
             "source": "/docs/contribute/overview",
             "destination": "/docs/contribute"
         },
         {
+            "source": "/docs/contribute/overview.md",
+            "destination": "/docs/contribute.md"
+        },
+        {
             "source": "/docs/user-guides/overview",
             "destination": "/docs/user-guides"
         },
         {
+            "source": "/docs/user-guides/overview.md",
+            "destination": "/docs/user-guides.md"
+        },
+        {
             "source": "/docs/user-guides/log-in-with-sso",
             "destination": "/docs/user-guides/sso"
+        },
+        {
+            "source": "/docs/user-guides/log-in-with-sso.md",
+            "destination": "/docs/user-guides/sso.md"
         },
         {
             "source": "/handbook/people/hiring-process/hiring-process",
@@ -942,16 +1399,32 @@
             "destination": "/docs/libraries/ios"
         },
         {
+            "source": "/docs/integrate/client/ios/index.md",
+            "destination": "/docs/libraries/ios.md"
+        },
+        {
             "source": "/docs/integrate/client/ios",
             "destination": "/docs/libraries/ios"
+        },
+        {
+            "source": "/docs/integrate/client/ios.md",
+            "destination": "/docs/libraries/ios.md"
         },
         {
             "source": "/docs/integrate/client/js/index",
             "destination": "/docs/libraries/js"
         },
         {
+            "source": "/docs/integrate/client/js/index.md",
+            "destination": "/docs/libraries/js.md"
+        },
+        {
             "source": "/docs/integrate/client/js",
             "destination": "/docs/libraries/js"
+        },
+        {
+            "source": "/docs/integrate/client/js.md",
+            "destination": "/docs/libraries/js.md"
         },
         {
             "source": "/handbook/people/hiring-process/index",
@@ -966,8 +1439,16 @@
             "destination": "/docs/settings/organizations"
         },
         {
+            "source": "/docs/user-guides/projects.md",
+            "destination": "/docs/settings/organizations.md"
+        },
+        {
             "source": "/docs/user-guides/organizations",
             "destination": "/docs/settings/projects"
+        },
+        {
+            "source": "/docs/user-guides/organizations.md",
+            "destination": "/docs/settings/projects.md"
         },
         {
             "source": "/handbook/engineering/enterprise-prioritization",
@@ -998,6 +1479,10 @@
             "destination": "/docs/user-guides/recordings"
         },
         {
+            "source": "/docs/user-guides/session-recording.md",
+            "destination": "/docs/user-guides/recordings.md"
+        },
+        {
             "source": "/blog/sessions-deprecation",
             "destination": "/blog/sessions-removal"
         },
@@ -1006,16 +1491,32 @@
             "destination": "/docs/self-host/runbook"
         },
         {
+            "source": "/docs/self-host/runbook/overview.md",
+            "destination": "/docs/self-host/runbook.md"
+        },
+        {
             "source": "/docs/user-guides/users",
             "destination": "/docs/user-guides/persons"
+        },
+        {
+            "source": "/docs/user-guides/users.md",
+            "destination": "/docs/user-guides/persons.md"
         },
         {
             "source": "/docs/integrations/api",
             "destination": "/docs/api"
         },
         {
+            "source": "/docs/integrations/api.md",
+            "destination": "/docs/api.md"
+        },
+        {
             "source": "/docs/features/sso",
             "destination": "/docs/user-guides/sso"
+        },
+        {
+            "source": "/docs/features/sso.md",
+            "destination": "/docs/user-guides/sso.md"
         },
         {
             "source": "/request_demo",
@@ -1036,6 +1537,10 @@
         {
             "source": "/docs/contribute/updating-documentation",
             "destination": "/docs/contribute"
+        },
+        {
+            "source": "/docs/contribute/updating-documentation.md",
+            "destination": "/docs/contribute.md"
         },
         {
             "source": "/handbook/growth/marketing/messaging_framework",
@@ -1062,12 +1567,24 @@
             "destination": "/docs/integrate"
         },
         {
+            "source": "/docs/integrate/third-party.md",
+            "destination": "/docs/integrate.md"
+        },
+        {
             "source": "/docs/integrated",
             "destination": "/docs/integrate"
         },
         {
+            "source": "/docs/integrated.md",
+            "destination": "/docs/integrate.md"
+        },
+        {
             "source": "/docs/scaling-posthog",
             "destination": "/docs/self-host/deploy/configuration"
+        },
+        {
+            "source": "/docs/scaling-posthog.md",
+            "destination": "/docs/self-host/deploy/configuration.md"
         },
         {
             "source": "/handbook/growth/sales/",
@@ -1078,12 +1595,24 @@
             "destination": "/docs/api"
         },
         {
+            "source": "/docs/api/api.md",
+            "destination": "/docs/api.md"
+        },
+        {
             "source": "/docs/code-of-conduct",
             "destination": "/docs/contribute/code-of-conduct"
         },
         {
+            "source": "/docs/code-of-conduct.md",
+            "destination": "/docs/contribute/code-of-conduct.md"
+        },
+        {
             "source": "/docs/self-host/docs/self-host/postgres-vs-clickhouse",
             "destination": "/docs/self-host/postgres-vs-clickhouse"
+        },
+        {
+            "source": "/docs/self-host/docs/self-host/postgres-vs-clickhouse.md",
+            "destination": "/docs/self-host/postgres-vs-clickhouse.md"
         },
         {
             "source": "/handbook/people/team-structure/design",
@@ -1233,6 +1762,10 @@
             "destination": "/docs/self-host/deploy/hobby"
         },
         {
+            "source": "/docs/self-host/hobby-deployment.md",
+            "destination": "/docs/self-host/deploy/hobby.md"
+        },
+        {
             "source": "/handbook/engineering/ee-setup",
             "destination": "/handbook/engineering/developing-locally"
         },
@@ -1241,12 +1774,24 @@
             "destination": "/docs/self-host/runbook/clickhouse/vertical-scaling"
         },
         {
+            "source": "/docs/self-host/runbook/clickhouse/vertical_scaling.md",
+            "destination": "/docs/self-host/runbook/clickhouse/vertical-scaling.md"
+        },
+        {
             "source": "/docs/privacy/overview",
             "destination": "/docs/privacy"
         },
         {
+            "source": "/docs/privacy/overview.md",
+            "destination": "/docs/privacy.md"
+        },
+        {
             "source": "/docs/integrate/gdpr",
             "destination": "/docs/privacy/gdpr-compliance"
+        },
+        {
+            "source": "/docs/integrate/gdpr.md",
+            "destination": "/docs/privacy/gdpr-compliance.md"
         },
         {
             "source": "/blog/hipaa-compliant-analytics",
@@ -1289,6 +1834,10 @@
             "destination": "/docs/api/persons"
         },
         {
+            "source": "/docs/api/people.md",
+            "destination": "/docs/api/persons.md"
+        },
+        {
             "source": "/handbook/engineering/k8s-overview",
             "destination": "/docs/self-host/architecture"
         },
@@ -1301,16 +1850,32 @@
             "destination": "/docs/apps/build/reference"
         },
         {
+            "source": "/docs/plugins/build/reference.md",
+            "destination": "/docs/apps/build/reference.md"
+        },
+        {
             "source": "/docs/plugins/build/types",
             "destination": "/docs/apps/build/types"
+        },
+        {
+            "source": "/docs/plugins/build/types.md",
+            "destination": "/docs/apps/build/types.md"
         },
         {
             "source": "/docs/plugins/enabling",
             "destination": "/docs/apps/enabling"
         },
         {
+            "source": "/docs/plugins/enabling.md",
+            "destination": "/docs/apps/enabling.md"
+        },
+        {
             "source": "/docs/plugins",
             "destination": "/docs/apps"
+        },
+        {
+            "source": "/docs/plugins.md",
+            "destination": "/docs/apps.md"
         },
         {
             "source": "/integrations",
@@ -1323,6 +1888,10 @@
         {
             "source": "/docs/user-guides/plugins",
             "destination": "/docs/apps"
+        },
+        {
+            "source": "/docs/user-guides/plugins.md",
+            "destination": "/docs/apps.md"
         },
         {
             "source": "/support",
@@ -1435,6 +2004,10 @@
         {
             "source": "/docs/self-host/migrate-to-cloud",
             "destination": "/docs/migrate/migrate-to-cloud"
+        },
+        {
+            "source": "/docs/self-host/migrate-to-cloud.md",
+            "destination": "/docs/migrate/migrate-to-cloud.md"
         },
         {
             "source": "/tutorials/categories/plugins",
@@ -1661,6 +2234,10 @@
             "destination": "/docs/runbook/async-migrations"
         },
         {
+            "source": "/docs/self-host/configure/async-migrations.md",
+            "destination": "/docs/runbook/async-migrations.md"
+        },
+        {
             "source": "/tutorials/spa",
             "destination": "/tutorials/single-page-app-pageviews"
         },
@@ -1669,108 +2246,216 @@
             "destination": "/docs/runbook/async-migrations/0001-events-sample-by"
         },
         {
+            "source": "/docs/self-host/configure/async-migrations/0001-events-sample-by.md",
+            "destination": "/docs/runbook/async-migrations/0001-events-sample-by.md"
+        },
+        {
             "source": "/docs/self-host/configure/async-migrations/0002-events-sample-by",
             "destination": "/docs/runbook/async-migrations/0002-events-sample-by"
+        },
+        {
+            "source": "/docs/self-host/configure/async-migrations/0002-events-sample-by.md",
+            "destination": "/docs/runbook/async-migrations/0002-events-sample-by.md"
         },
         {
             "source": "/docs/self-host/configure/async-migrations/0003-fill-person-distinct-id2",
             "destination": "/docs/runbook/async-migrations/0003-fill-person-distinct-id2"
         },
         {
+            "source": "/docs/self-host/configure/async-migrations/0003-fill-person-distinct-id2.md",
+            "destination": "/docs/runbook/async-migrations/0003-fill-person-distinct-id2.md"
+        },
+        {
             "source": "/docs/self-host/configure/async-migrations/overview",
             "destination": "/docs/runbook/async-migrations"
+        },
+        {
+            "source": "/docs/self-host/configure/async-migrations/overview.md",
+            "destination": "/docs/runbook/async-migrations.md"
         },
         {
             "source": "/docs/self-host/disaster-recovery",
             "destination": "/docs/runbook/disaster-recovery"
         },
         {
+            "source": "/docs/self-host/disaster-recovery.md",
+            "destination": "/docs/runbook/disaster-recovery.md"
+        },
+        {
             "source": "/docs/self-host/runbook/clickhouse/backup",
             "destination": "/docs/runbook/services/clickhouse/backup"
+        },
+        {
+            "source": "/docs/self-host/runbook/clickhouse/backup.md",
+            "destination": "/docs/runbook/services/clickhouse/backup.md"
         },
         {
             "source": "/docs/self-host/runbook/clickhouse",
             "destination": "/docs/runbook/services/clickhouse"
         },
         {
+            "source": "/docs/self-host/runbook/clickhouse.md",
+            "destination": "/docs/runbook/services/clickhouse.md"
+        },
+        {
             "source": "/docs/self-host/runbook/clickhouse/kafka-engine",
             "destination": "/docs/runbook/services/clickhouse/kafka-engine"
+        },
+        {
+            "source": "/docs/self-host/runbook/clickhouse/kafka-engine.md",
+            "destination": "/docs/runbook/services/clickhouse/kafka-engine.md"
         },
         {
             "source": "/docs/self-host/runbook/clickhouse/resize-disk",
             "destination": "/docs/runbook/services/clickhouse/resize-disk"
         },
         {
+            "source": "/docs/self-host/runbook/clickhouse/resize-disk.md",
+            "destination": "/docs/runbook/services/clickhouse/resize-disk.md"
+        },
+        {
             "source": "/docs/self-host/runbook/clickhouse/restore",
             "destination": "/docs/runbook/services/clickhouse/restore"
+        },
+        {
+            "source": "/docs/self-host/runbook/clickhouse/restore.md",
+            "destination": "/docs/runbook/services/clickhouse/restore.md"
         },
         {
             "source": "/docs/self-host/runbook/clickhouse/sharding-and-replication",
             "destination": "/docs/runbook/services/clickhouse/sharding-and-replication"
         },
         {
+            "source": "/docs/self-host/runbook/clickhouse/sharding-and-replication.md",
+            "destination": "/docs/runbook/services/clickhouse/sharding-and-replication.md"
+        },
+        {
             "source": "/docs/self-host/runbook/clickhouse/vertical-scaling",
             "destination": "/docs/runbook/services/clickhouse/vertical-scaling"
+        },
+        {
+            "source": "/docs/self-host/runbook/clickhouse/vertical-scaling.md",
+            "destination": "/docs/runbook/services/clickhouse/vertical-scaling.md"
         },
         {
             "source": "/docs/self-host/runbook/kafka",
             "destination": "/docs/runbook/services/kafka"
         },
         {
+            "source": "/docs/self-host/runbook/kafka.md",
+            "destination": "/docs/runbook/services/kafka.md"
+        },
+        {
             "source": "/docs/self-host/runbook/kafka/log-retention",
             "destination": "/docs/runbook/services/kafka/log-retention"
+        },
+        {
+            "source": "/docs/self-host/runbook/kafka/log-retention.md",
+            "destination": "/docs/runbook/services/kafka/log-retention.md"
         },
         {
             "source": "/docs/self-host/runbook/kafka/resize-disk",
             "destination": "/docs/runbook/services/kafka/resize-disk"
         },
         {
+            "source": "/docs/self-host/runbook/kafka/resize-disk.md",
+            "destination": "/docs/runbook/services/kafka/resize-disk.md"
+        },
+        {
             "source": "/docs/self-host/runbook/minio",
             "destination": "/docs/runbook/services/minio"
+        },
+        {
+            "source": "/docs/self-host/runbook/minio.md",
+            "destination": "/docs/runbook/services/minio.md"
         },
         {
             "source": "/docs/self-host/runbook/plugin-server/diagrams/async-server",
             "destination": "/docs/runbook/services/plugin-server/diagrams/async-server"
         },
         {
+            "source": "/docs/self-host/runbook/plugin-server/diagrams/async-server.md",
+            "destination": "/docs/runbook/services/plugin-server/diagrams/async-server.md"
+        },
+        {
             "source": "/docs/self-host/runbook/plugin-server/diagrams/event-flow",
             "destination": "/docs/runbook/services/plugin-server/diagrams/event-flow"
+        },
+        {
+            "source": "/docs/self-host/runbook/plugin-server/diagrams/event-flow.md",
+            "destination": "/docs/runbook/services/plugin-server/diagrams/event-flow.md"
         },
         {
             "source": "/docs/self-host/runbook/plugin-server/diagrams/ingestion-server",
             "destination": "/docs/runbook/services/plugin-server/diagrams/ingestion-server"
         },
         {
+            "source": "/docs/self-host/runbook/plugin-server/diagrams/ingestion-server.md",
+            "destination": "/docs/runbook/services/plugin-server/diagrams/ingestion-server.md"
+        },
+        {
             "source": "/docs/self-host/runbook/plugin-server/diagrams/plugin-server",
             "destination": "/docs/runbook/services/plugin-server/diagrams/plugin-server"
+        },
+        {
+            "source": "/docs/self-host/runbook/plugin-server/diagrams/plugin-server.md",
+            "destination": "/docs/runbook/services/plugin-server/diagrams/plugin-server.md"
         },
         {
             "source": "/docs/self-host/runbook/plugin-server",
             "destination": "/docs/runbook/services/plugin-server"
         },
         {
+            "source": "/docs/self-host/runbook/plugin-server.md",
+            "destination": "/docs/runbook/services/plugin-server.md"
+        },
+        {
             "source": "/docs/self-host/runbook/postgresql",
             "destination": "/docs/runbook/services/postgresql"
+        },
+        {
+            "source": "/docs/self-host/runbook/postgresql.md",
+            "destination": "/docs/runbook/services/postgresql.md"
         },
         {
             "source": "/docs/self-host/postgres-upgrade-migrations",
             "destination": "/docs/runbook/services/postgresql/long-migrations"
         },
         {
+            "source": "/docs/self-host/postgres-upgrade-migrations.md",
+            "destination": "/docs/runbook/services/postgresql/long-migrations.md"
+        },
+        {
             "source": "/docs/self-host/runbook/postgresql/resize-disk",
             "destination": "/docs/runbook/services/postgresql/resize-disk"
+        },
+        {
+            "source": "/docs/self-host/runbook/postgresql/resize-disk.md",
+            "destination": "/docs/runbook/services/postgresql/resize-disk.md"
         },
         {
             "source": "/docs/self-host/runbook/redis",
             "destination": "/docs/runbook/services/redis"
         },
         {
+            "source": "/docs/self-host/runbook/redis.md",
+            "destination": "/docs/runbook/services/redis.md"
+        },
+        {
             "source": "/docs/self-host/runbook/zookeeper",
             "destination": "/docs/runbook/services/zookeeper"
         },
         {
+            "source": "/docs/self-host/runbook/zookeeper.md",
+            "destination": "/docs/runbook/services/zookeeper.md"
+        },
+        {
             "source": "/docs/self-host/configure/upgrading-posthog",
             "destination": "/docs/runbook/upgrading-posthog"
+        },
+        {
+            "source": "/docs/self-host/configure/upgrading-posthog.md",
+            "destination": "/docs/runbook/upgrading-posthog.md"
         },
         {
             "source": "/tutorials/aarrr-framework",
@@ -1785,28 +2470,56 @@
             "destination": "/docs/integrate/proxy"
         },
         {
+            "source": "/docs/cloud/proxy.md",
+            "destination": "/docs/integrate/proxy.md"
+        },
+        {
             "source": "/docs/self-host/migrate/migrate-between-cloud-and-self-hosted",
             "destination": "/docs/migrate/migrate-to-cloud"
+        },
+        {
+            "source": "/docs/self-host/migrate/migrate-between-cloud-and-self-hosted.md",
+            "destination": "/docs/migrate/migrate-to-cloud.md"
         },
         {
             "source": "/docs/self-host/migrate/migrate-from-amplitude",
             "destination": "/docs/migrate/migrate-from-amplitude"
         },
         {
+            "source": "/docs/self-host/migrate/migrate-from-amplitude.md",
+            "destination": "/docs/migrate/migrate-from-amplitude.md"
+        },
+        {
             "source": "/docs/self-host/migrate-from-postgres-to-clickhouse",
             "destination": "/docs/migrate/migrate-to-cloud"
+        },
+        {
+            "source": "/docs/self-host/migrate-from-postgres-to-clickhouse.md",
+            "destination": "/docs/migrate/migrate-to-cloud.md"
         },
         {
             "source": "/docs/self-host/migrate/migrate-to-another-self-hosted-instance",
             "destination": "/docs/migrate/migrate-to-cloud"
         },
         {
+            "source": "/docs/self-host/migrate/migrate-to-another-self-hosted-instance.md",
+            "destination": "/docs/migrate/migrate-to-cloud.md"
+        },
+        {
             "source": "/docs/migrate/migrate-to-another-self-hosted-instance",
             "destination": "/docs/migrate/migrate-to-cloud"
         },
         {
+            "source": "/docs/migrate/migrate-to-another-self-hosted-instance.md",
+            "destination": "/docs/migrate/migrate-to-cloud.md"
+        },
+        {
             "source": "/docs/migrate/migrate-between-cloud-and-self-hosted",
             "destination": "/docs/migrate/migrate-to-cloud"
+        },
+        {
+            "source": "/docs/migrate/migrate-between-cloud-and-self-hosted.md",
+            "destination": "/docs/migrate/migrate-to-cloud.md"
         },
         {
             "source": "/handbook/product/pm-rampup",
@@ -1821,12 +2534,24 @@
             "destination": "/docs/apps/build"
         },
         {
+            "source": "/docs/plugins/build.md",
+            "destination": "/docs/apps/build.md"
+        },
+        {
             "source": "/docs/data-model",
             "destination": "/docs/how-posthog-works/data-model"
         },
         {
+            "source": "/docs/data-model.md",
+            "destination": "/docs/how-posthog-works/data-model.md"
+        },
+        {
             "source": "/docs/self-host/architecture",
             "destination": "/docs/how-posthog-works"
+        },
+        {
+            "source": "/docs/self-host/architecture.md",
+            "destination": "/docs/how-posthog-works.md"
         },
         {
             "source": "/handbook/engineering/app-east",
@@ -1843,6 +2568,10 @@
         {
             "source": "/docs/integrate/client/browser-extension",
             "destination": "/docs/integrate/browser-extension"
+        },
+        {
+            "source": "/docs/integrate/client/browser-extension.md",
+            "destination": "/docs/integrate/browser-extension.md"
         },
         {
             "source": "/handbook/company/website-design-process",
@@ -1973,12 +2702,20 @@
             "destination": "/docs/how-posthog-works/ingestion-pipeline"
         },
         {
+            "source": "/docs/architecture/ingestion-pipeline.md",
+            "destination": "/docs/how-posthog-works/ingestion-pipeline.md"
+        },
+        {
             "source": "/blog/using-posting",
             "destination": "/blog/using-posthog"
         },
         {
             "source": "/docs/integrate/client/snippet-installation",
             "destination": "/docs/integrate"
+        },
+        {
+            "source": "/docs/integrate/client/snippet-installation.md",
+            "destination": "/docs/integrate.md"
         },
         {
             "source": "/tutorials/posthog-for-vuejs",
@@ -2037,6 +2774,10 @@
             "destination": "/docs/contribute/badge"
         },
         {
+            "source": "/docs/integrate/badge.md",
+            "destination": "/docs/contribute/badge.md"
+        },
+        {
             "source": "/blog/introduction-to-customer-retention",
             "destination": "/blog/customer-churn-analysis-guide"
         },
@@ -2045,136 +2786,272 @@
             "destination": "/docs/getting-started/install"
         },
         {
+            "source": "/docs/getting-started/cloud.md",
+            "destination": "/docs/getting-started/install.md"
+        },
+        {
             "source": "/docs/getting-started/start-here",
             "destination": "/docs/getting-started/install"
+        },
+        {
+            "source": "/docs/getting-started/start-here.md",
+            "destination": "/docs/getting-started/install.md"
         },
         {
             "source": "/docs/integrate/ingest-live-data",
             "destination": "/docs/getting-started/send-events"
         },
         {
+            "source": "/docs/integrate/ingest-live-data.md",
+            "destination": "/docs/getting-started/send-events.md"
+        },
+        {
             "source": "/docs/self-host/open-source/deployment",
             "destination": "/docs/self-host"
+        },
+        {
+            "source": "/docs/self-host/open-source/deployment.md",
+            "destination": "/docs/self-host.md"
         },
         {
             "source": "/docs/integrate/android",
             "destination": "/docs/libraries/android"
         },
         {
+            "source": "/docs/integrate/android.md",
+            "destination": "/docs/libraries/android.md"
+        },
+        {
             "source": "/docs/integrate/api",
             "destination": "/docs/libraries/api"
+        },
+        {
+            "source": "/docs/integrate/api.md",
+            "destination": "/docs/libraries/api.md"
         },
         {
             "source": "/docs/integrate/curl",
             "destination": "/docs/libraries/curl"
         },
         {
+            "source": "/docs/integrate/curl.md",
+            "destination": "/docs/libraries/curl.md"
+        },
+        {
             "source": "/docs/integrate/elixir",
             "destination": "/docs/libraries/elixir"
+        },
+        {
+            "source": "/docs/integrate/elixir.md",
+            "destination": "/docs/libraries/elixir.md"
         },
         {
             "source": "/docs/integrate/flutter",
             "destination": "/docs/libraries/flutter"
         },
         {
+            "source": "/docs/integrate/flutter.md",
+            "destination": "/docs/libraries/flutter.md"
+        },
+        {
             "source": "/docs/integrate/go",
             "destination": "/docs/libraries/go"
+        },
+        {
+            "source": "/docs/integrate/go.md",
+            "destination": "/docs/libraries/go.md"
         },
         {
             "source": "/docs/integrate/ios",
             "destination": "/docs/libraries/ios"
         },
         {
+            "source": "/docs/integrate/ios.md",
+            "destination": "/docs/libraries/ios.md"
+        },
+        {
             "source": "/docs/integrate/java",
             "destination": "/docs/libraries/java"
+        },
+        {
+            "source": "/docs/integrate/java.md",
+            "destination": "/docs/libraries/java.md"
         },
         {
             "source": "/docs/integrate/js",
             "destination": "/docs/libraries/js"
         },
         {
+            "source": "/docs/integrate/js.md",
+            "destination": "/docs/libraries/js.md"
+        },
+        {
             "source": "/docs/integrate/node",
             "destination": "/docs/libraries/node"
+        },
+        {
+            "source": "/docs/integrate/node.md",
+            "destination": "/docs/libraries/node.md"
         },
         {
             "source": "/docs/integrate/php",
             "destination": "/docs/libraries/php"
         },
         {
+            "source": "/docs/integrate/php.md",
+            "destination": "/docs/libraries/php.md"
+        },
+        {
             "source": "/docs/integrate/python",
             "destination": "/docs/libraries/python"
+        },
+        {
+            "source": "/docs/integrate/python.md",
+            "destination": "/docs/libraries/python.md"
         },
         {
             "source": "/docs/integrate/react",
             "destination": "/docs/libraries/react"
         },
         {
+            "source": "/docs/integrate/react.md",
+            "destination": "/docs/libraries/react.md"
+        },
+        {
             "source": "/docs/integrate/react-native",
             "destination": "/docs/libraries/react-native"
+        },
+        {
+            "source": "/docs/integrate/react-native.md",
+            "destination": "/docs/libraries/react-native.md"
         },
         {
             "source": "/docs/integrate/ruby",
             "destination": "/docs/libraries/ruby"
         },
         {
+            "source": "/docs/integrate/ruby.md",
+            "destination": "/docs/libraries/ruby.md"
+        },
+        {
             "source": "/docs/integrate/rust",
             "destination": "/docs/libraries/rust"
+        },
+        {
+            "source": "/docs/integrate/rust.md",
+            "destination": "/docs/libraries/rust.md"
         },
         {
             "source": "/docs/integrate/identifying-users",
             "destination": "/docs/product-analytics/identify"
         },
         {
+            "source": "/docs/integrate/identifying-users.md",
+            "destination": "/docs/product-analytics/identify.md"
+        },
+        {
             "source": "/docs/integrate/user-properties",
             "destination": "/docs/product-analytics/user-properties"
+        },
+        {
+            "source": "/docs/integrate/user-properties.md",
+            "destination": "/docs/product-analytics/user-properties.md"
         },
         {
             "source": "/docs/data/user-properties",
             "destination": "/docs/product-analytics/user-properties"
         },
         {
+            "source": "/docs/data/user-properties.md",
+            "destination": "/docs/product-analytics/user-properties.md"
+        },
+        {
             "source": "/docs/product-analytics/user-properties",
             "destination": "/docs/product-analytics/person-properties"
+        },
+        {
+            "source": "/docs/product-analytics/user-properties.md",
+            "destination": "/docs/product-analytics/person-properties.md"
         },
         {
             "source": "/docs/product-analytics/start",
             "destination": "/docs/getting-started/send-events"
         },
         {
+            "source": "/docs/product-analytics/start.md",
+            "destination": "/docs/getting-started/send-events.md"
+        },
+        {
             "source": "/docs/product-analytics/web-vitals",
             "destination": "/docs/web-analytics/web-vitals"
+        },
+        {
+            "source": "/docs/product-analytics/web-vitals.md",
+            "destination": "/docs/web-analytics/web-vitals.md"
         },
         {
             "source": "/docs/getting-started/user-properties",
             "destination": "/docs/getting-started/person-properties"
         },
         {
+            "source": "/docs/getting-started/user-properties.md",
+            "destination": "/docs/getting-started/person-properties.md"
+        },
+        {
             "source": "/docs/feature-flags/multivariate-flags",
             "destination": "/docs/feature-flags/creating-feature-flags"
+        },
+        {
+            "source": "/docs/feature-flags/multivariate-flags.md",
+            "destination": "/docs/feature-flags/creating-feature-flags.md"
         },
         {
             "source": "/docs/feature-flags/libraries",
             "destination": "/docs/feature-flags/"
         },
         {
+            "source": "/docs/feature-flags/libraries.md",
+            "destination": "/docs/feature-flags/.md"
+        },
+        {
             "source": "/docs/feature-flags/manual",
             "destination": "/docs/feature-flags/installation"
+        },
+        {
+            "source": "/docs/feature-flags/manual.md",
+            "destination": "/docs/feature-flags/installation.md"
         },
         {
             "source": "/docs/feature-flags/rollout-strategies",
             "destination": "/docs/feature-flags/creating-feature-flags"
         },
         {
+            "source": "/docs/feature-flags/rollout-strategies.md",
+            "destination": "/docs/feature-flags/creating-feature-flags.md"
+        },
+        {
             "source": "/docs/feature-flags/payloads",
             "destination": "/docs/feature-flags/creating-feature-flags"
+        },
+        {
+            "source": "/docs/feature-flags/payloads.md",
+            "destination": "/docs/feature-flags/creating-feature-flags.md"
         },
         {
             "source": "/docs/feature-flags/evaluation-tags",
             "destination": "/docs/feature-flags/evaluation-contexts"
         },
         {
+            "source": "/docs/feature-flags/evaluation-tags.md",
+            "destination": "/docs/feature-flags/evaluation-contexts.md"
+        },
+        {
             "source": "/docs/feature-flags/evaluation-environments",
             "destination": "/docs/feature-flags/evaluation-contexts"
+        },
+        {
+            "source": "/docs/feature-flags/evaluation-environments.md",
+            "destination": "/docs/feature-flags/evaluation-contexts.md"
         },
         {
             "source": "/tutorials/evaluation-runtimes-and-tags",
@@ -2189,12 +3066,24 @@
             "destination": "/docs/getting-started/install"
         },
         {
+            "source": "/docs/integrate.md",
+            "destination": "/docs/getting-started/install.md"
+        },
+        {
             "source": "/docs/integrate/ingest-historic-data",
             "destination": "/docs/migrate/ingest-historic-data"
         },
         {
+            "source": "/docs/integrate/ingest-historic-data.md",
+            "destination": "/docs/migrate/ingest-historic-data.md"
+        },
+        {
             "source": "/docs/migrate/ingest-historic-data",
             "destination": "/docs/migrate"
+        },
+        {
+            "source": "/docs/migrate/ingest-historic-data.md",
+            "destination": "/docs/migrate.md"
         },
         {
             "source": "/blog/categories/hogmail",
@@ -2205,36 +3094,72 @@
             "destination": "/docs/libraries/docusaurus"
         },
         {
+            "source": "/docs/integrate/third-party/docusaurus.md",
+            "destination": "/docs/libraries/docusaurus.md"
+        },
+        {
             "source": "/docs/integrate/third-party/gatsby",
             "destination": "/docs/libraries/gatsby"
+        },
+        {
+            "source": "/docs/integrate/third-party/gatsby.md",
+            "destination": "/docs/libraries/gatsby.md"
         },
         {
             "source": "/docs/integrate/third-party/google-tag-manager",
             "destination": "/docs/libraries/google-tag-manager"
         },
         {
+            "source": "/docs/integrate/third-party/google-tag-manager.md",
+            "destination": "/docs/libraries/google-tag-manager.md"
+        },
+        {
             "source": "/docs/experiments/manual",
             "destination": "/docs/experiments/start-here"
+        },
+        {
+            "source": "/docs/experiments/manual.md",
+            "destination": "/docs/experiments/start-here.md"
         },
         {
             "source": "/docs/experiments/new-experimentation-engine",
             "destination": "/docs/experiments/start-here"
         },
         {
+            "source": "/docs/experiments/new-experimentation-engine.md",
+            "destination": "/docs/experiments/start-here.md"
+        },
+        {
             "source": "/docs/experiments/under-the-hood",
             "destination": "/docs/experiments/experiment-significance"
+        },
+        {
+            "source": "/docs/experiments/under-the-hood.md",
+            "destination": "/docs/experiments/experiment-significance.md"
         },
         {
             "source": "/docs/experiments/significance",
             "destination": "/docs/experiments/experiment-significance"
         },
         {
+            "source": "/docs/experiments/significance.md",
+            "destination": "/docs/experiments/experiment-significance.md"
+        },
+        {
             "source": "/docs/experiments/statistics",
             "destination": "/docs/experiments/statistics-bayesian"
         },
         {
+            "source": "/docs/experiments/statistics.md",
+            "destination": "/docs/experiments/statistics-bayesian.md"
+        },
+        {
             "source": "/docs/session-replay/manual",
             "destination": "/docs/session-replay/installation"
+        },
+        {
+            "source": "/docs/session-replay/manual.md",
+            "destination": "/docs/session-replay/installation.md"
         },
         {
             "source": "/docs/session-replay/search-replays-mcp",
@@ -2242,20 +3167,41 @@
             "statusCode": 301
         },
         {
+            "source": "/docs/session-replay/search-replays-mcp.md",
+            "destination": "/docs/session-replay/surfaces/mcp.md",
+            "statusCode": 301
+        },
+        {
             "source": "/docs/session-replay/data-retention",
             "destination": "/docs/session-replay/recording-retention"
+        },
+        {
+            "source": "/docs/session-replay/data-retention.md",
+            "destination": "/docs/session-replay/recording-retention.md"
         },
         {
             "source": "/docs/session-replay/_snippets/react-native-installation",
             "destination": "/docs/session-replay/installation/react-native"
         },
         {
+            "source": "/docs/session-replay/_snippets/react-native-installation.md",
+            "destination": "/docs/session-replay/installation/react-native.md"
+        },
+        {
             "source": "/docs/features/feature-flags",
             "destination": "/docs/feature-flags"
         },
         {
+            "source": "/docs/features/feature-flags.md",
+            "destination": "/docs/feature-flags.md"
+        },
+        {
             "source": "/docs/user-guides/feature-flags",
             "destination": "/docs/feature-flags"
+        },
+        {
+            "source": "/docs/user-guides/feature-flags.md",
+            "destination": "/docs/feature-flags.md"
         },
         {
             "source": "/docs/feature-flags/manual",
@@ -2270,8 +3216,16 @@
             "destination": "/docs/hogql"
         },
         {
+            "source": "/docs/product-analytics/hogql.md",
+            "destination": "/docs/hogql.md"
+        },
+        {
             "source": "/docs/hogql/guide",
             "destination": "/docs/product-analytics/sql"
+        },
+        {
+            "source": "/docs/hogql/guide.md",
+            "destination": "/docs/product-analytics/sql.md"
         },
         {
             "source": "/docs/hogql/:path*",
@@ -2282,8 +3236,16 @@
             "destination": "/docs/data-warehouse/sql"
         },
         {
+            "source": "/docs/product-analytics/sql.md",
+            "destination": "/docs/data-warehouse/sql.md"
+        },
+        {
             "source": "/docs/sql/variables",
             "destination": "/docs/data-warehouse/sql/variables"
+        },
+        {
+            "source": "/docs/sql/variables.md",
+            "destination": "/docs/data-warehouse/sql/variables.md"
         },
         {
             "source": "/manual/toolbar",
@@ -2292,6 +3254,10 @@
         {
             "source": "/docs/product-analytics/toolbar",
             "destination": "/docs/toolbar"
+        },
+        {
+            "source": "/docs/product-analytics/toolbar.md",
+            "destination": "/docs/toolbar.md"
         },
         {
             "source": "/manual/application-settings",
@@ -2359,6 +3325,11 @@
             "statusCode": 301
         },
         {
+            "source": "/docs/support/zendesk-import.md",
+            "destination": "/docs/support/imports/zendesk.md",
+            "statusCode": 301
+        },
+        {
             "source": "/docs/support/self-driving",
             "destination": "/docs/support#how-support-works-with-self-driving",
             "statusCode": 301
@@ -2372,20 +3343,40 @@
             "destination": "/docs/advanced/browser-extension"
         },
         {
+            "source": "/docs/integrate/browser-extension.md",
+            "destination": "/docs/advanced/browser-extension.md"
+        },
+        {
             "source": "/docs/integrate/cdp",
             "destination": "/docs/advanced/cdp"
+        },
+        {
+            "source": "/docs/integrate/cdp.md",
+            "destination": "/docs/advanced/cdp.md"
         },
         {
             "source": "/docs/integrate/proxy",
             "destination": "/docs/advanced/proxy"
         },
         {
+            "source": "/docs/integrate/proxy.md",
+            "destination": "/docs/advanced/proxy.md"
+        },
+        {
             "source": "/docs/advanced/proxy/managed-reverse-proxy",
             "destination": "/docs/advanced/proxy"
         },
         {
+            "source": "/docs/advanced/proxy/managed-reverse-proxy.md",
+            "destination": "/docs/advanced/proxy.md"
+        },
+        {
             "source": "/docs/advanced/proxy/troubleshooting",
             "destination": "/docs/advanced/proxy/proxy-reference"
+        },
+        {
+            "source": "/docs/advanced/proxy/troubleshooting.md",
+            "destination": "/docs/advanced/proxy/proxy-reference.md"
         },
         {
             "source": "/docs/integrate/badge",
@@ -2396,8 +3387,16 @@
             "destination": "/docs/libraries"
         },
         {
+            "source": "/docs/integrate/libraries.md",
+            "destination": "/docs/libraries.md"
+        },
+        {
             "source": "/docs/data/notifications-and-alerts",
             "destination": "/docs/product-analytics/subscriptions"
+        },
+        {
+            "source": "/docs/data/notifications-and-alerts.md",
+            "destination": "/docs/product-analytics/subscriptions.md"
         },
         {
             "source": "/handbook/engineering/oncall-rotation",
@@ -2412,20 +3411,40 @@
             "destination": "/docs/libraries/next-js"
         },
         {
+            "source": "/docs/integrate/next-js.md",
+            "destination": "/docs/libraries/next-js.md"
+        },
+        {
             "source": "/docs/integrate/sentry",
             "destination": "/docs/error-tracking"
+        },
+        {
+            "source": "/docs/integrate/sentry.md",
+            "destination": "/docs/error-tracking.md"
         },
         {
             "source": "/docs/integrate/rudderstack",
             "destination": "/docs/libraries/rudderstack"
         },
         {
+            "source": "/docs/integrate/rudderstack.md",
+            "destination": "/docs/libraries/rudderstack.md"
+        },
+        {
             "source": "/docs/integrate/segment",
             "destination": "/docs/libraries/segment"
         },
         {
+            "source": "/docs/integrate/segment.md",
+            "destination": "/docs/libraries/segment.md"
+        },
+        {
             "source": "/docs/sdks/ios",
             "destination": "/docs/libraries/ios"
+        },
+        {
+            "source": "/docs/sdks/ios.md",
+            "destination": "/docs/libraries/ios.md"
         },
         {
             "source": "/signup/cloud/enterprise",
@@ -2434,6 +3453,10 @@
         {
             "source": "/docs/feature-flags/bootstrapping-and-local-evaluation",
             "destination": "/docs/feature-flags/bootstrapping"
+        },
+        {
+            "source": "/docs/feature-flags/bootstrapping-and-local-evaluation.md",
+            "destination": "/docs/feature-flags/bootstrapping.md"
         },
         {
             "source": "/products/product-analytics",
@@ -2452,20 +3475,40 @@
             "destination": "/docs/session-replay"
         },
         {
+            "source": "/docs/session-recording.md",
+            "destination": "/docs/session-replay.md"
+        },
+        {
             "source": "/docs/session-replay/configure",
             "destination": "/docs/session-replay/manual"
+        },
+        {
+            "source": "/docs/session-replay/configure.md",
+            "destination": "/docs/session-replay/manual.md"
         },
         {
             "source": "/docs/session-replay/cutting-costs",
             "destination": "/docs/session-replay/how-to-control-which-sessions-you-record"
         },
         {
+            "source": "/docs/session-replay/cutting-costs.md",
+            "destination": "/docs/session-replay/how-to-control-which-sessions-you-record.md"
+        },
+        {
             "source": "/docs/error-tracking/debugging-with-mcp",
             "destination": "/docs/error-tracking/surfaces/mcp"
         },
         {
+            "source": "/docs/error-tracking/debugging-with-mcp.md",
+            "destination": "/docs/error-tracking/surfaces/mcp.md"
+        },
+        {
             "source": "/docs/error-tracking/debug-errors-mcp",
             "destination": "/docs/error-tracking/surfaces/mcp"
+        },
+        {
+            "source": "/docs/error-tracking/debug-errors-mcp.md",
+            "destination": "/docs/error-tracking/surfaces/mcp.md"
         },
         {
             "source": "/docs/error-tracking/fix-with-ai-prompts",
@@ -2478,6 +3521,11 @@
             "statusCode": 301
         },
         {
+            "source": "/docs/support/surfaces/code.md",
+            "destination": "/docs/support/surfaces/desktop.md",
+            "statusCode": 301
+        },
+        {
             "source": "/docs/error-tracking/surfaces/fix-with-ai",
             "destination": "/docs/error-tracking/surfaces/web-app#fix-with-ai-prompts",
             "statusCode": 301
@@ -2485,6 +3533,10 @@
         {
             "source": "/docs/logs/debugging-with-mcp",
             "destination": "/docs/logs/debug-logs-mcp"
+        },
+        {
+            "source": "/docs/logs/debugging-with-mcp.md",
+            "destination": "/docs/logs/debug-logs-mcp.md"
         },
         {
             "source": "/handbook/small-teams/experimentation",
@@ -2533,6 +3585,10 @@
         {
             "source": "/docs/integrate/webhooks",
             "destination": "/docs/cdp/destinations/webhook"
+        },
+        {
+            "source": "/docs/integrate/webhooks.md",
+            "destination": "/docs/cdp/destinations/webhook.md"
         },
         {
             "source": "/roadmap/changelog",
@@ -2819,76 +3875,152 @@
             "destination": "/docs/cdp/replicator"
         },
         {
+            "source": "/docs/apps/replicator.md",
+            "destination": "/docs/cdp/replicator.md"
+        },
+        {
             "source": "/docs/apps/advanced-geoip",
             "destination": "/docs/cdp/geoip-enrichment"
+        },
+        {
+            "source": "/docs/apps/advanced-geoip.md",
+            "destination": "/docs/cdp/geoip-enrichment.md"
         },
         {
             "source": "/docs/cdp/advanced-geoip",
             "destination": "/docs/cdp/geoip-enrichment"
         },
         {
+            "source": "/docs/cdp/advanced-geoip.md",
+            "destination": "/docs/cdp/geoip-enrichment.md"
+        },
+        {
             "source": "/docs/apps/airbyte-export",
             "destination": "/docs/cdp/airbyte-export"
+        },
+        {
+            "source": "/docs/apps/airbyte-export.md",
+            "destination": "/docs/cdp/airbyte-export.md"
         },
         {
             "source": "/docs/apps/amazon-kinesis",
             "destination": "/docs/cdp/amazon-kinesis"
         },
         {
+            "source": "/docs/apps/amazon-kinesis.md",
+            "destination": "/docs/cdp/amazon-kinesis.md"
+        },
+        {
             "source": "/docs/apps/automatic-cohort-creator",
             "destination": "/docs/product-analytics/group-analytics"
+        },
+        {
+            "source": "/docs/apps/automatic-cohort-creator.md",
+            "destination": "/docs/product-analytics/group-analytics.md"
         },
         {
             "source": "/docs/apps/avo-inspector",
             "destination": "/docs/cdp/avo-inspector"
         },
         {
+            "source": "/docs/apps/avo-inspector.md",
+            "destination": "/docs/cdp/avo-inspector.md"
+        },
+        {
             "source": "/docs/apps/bigquery-export",
             "destination": "/docs/cdp/bigquery-export"
+        },
+        {
+            "source": "/docs/apps/bigquery-export.md",
+            "destination": "/docs/cdp/bigquery-export.md"
         },
         {
             "source": "/docs/apps/bitbucket-release-tracker",
             "destination": "/docs/cdp/bitbucket-release-tracker"
         },
         {
+            "source": "/docs/apps/bitbucket-release-tracker.md",
+            "destination": "/docs/cdp/bitbucket-release-tracker.md"
+        },
+        {
             "source": "/docs/apps/currency-normalization",
             "destination": "/docs/cdp"
+        },
+        {
+            "source": "/docs/apps/currency-normalization.md",
+            "destination": "/docs/cdp.md"
         },
         {
             "source": "/docs/apps/customer-io",
             "destination": "/docs/cdp/customer-io"
         },
         {
+            "source": "/docs/apps/customer-io.md",
+            "destination": "/docs/cdp/customer-io.md"
+        },
+        {
             "source": "/docs/apps/databricks",
             "destination": "/docs/cdp/"
+        },
+        {
+            "source": "/docs/apps/databricks.md",
+            "destination": "/docs/cdp/.md"
         },
         {
             "source": "/docs/apps/downsampling",
             "destination": "/docs/cdp/downsampling"
         },
         {
+            "source": "/docs/apps/downsampling.md",
+            "destination": "/docs/cdp/downsampling.md"
+        },
+        {
             "source": "/docs/apps/email-scoring",
             "destination": "/docs/cdp/"
+        },
+        {
+            "source": "/docs/apps/email-scoring.md",
+            "destination": "/docs/cdp/.md"
         },
         {
             "source": "/docs/apps/engage-connector",
             "destination": "/docs/cdp/engage-connector"
         },
         {
+            "source": "/docs/apps/engage-connector.md",
+            "destination": "/docs/cdp/engage-connector.md"
+        },
+        {
             "source": "/docs/apps/event-sequence-timer",
             "destination": "/docs/cdp/event-sequence-timer"
+        },
+        {
+            "source": "/docs/apps/event-sequence-timer.md",
+            "destination": "/docs/cdp/event-sequence-timer.md"
         },
         {
             "source": "/docs/apps/filter-out",
             "destination": "/docs/cdp/filter-out"
         },
         {
+            "source": "/docs/apps/filter-out.md",
+            "destination": "/docs/cdp/filter-out.md"
+        },
+        {
             "source": "/docs/apps/first-time-event-tracker",
             "destination": "/docs/cdp/first-time-event-tracker"
         },
         {
+            "source": "/docs/apps/first-time-event-tracker.md",
+            "destination": "/docs/cdp/first-time-event-tracker.md"
+        },
+        {
             "source": "/docs/apps/geoip-enrichment",
             "destination": "/docs/cdp/geoip-enrichment"
+        },
+        {
+            "source": "/docs/apps/geoip-enrichment.md",
+            "destination": "/docs/cdp/geoip-enrichment.md"
         },
         {
             "source": "/docs/apps/github-release-tracker",
@@ -2903,76 +4035,152 @@
             "destination": "/docs/cdp/"
         },
         {
+            "source": "/docs/apps/gitlab-release-tracker.md",
+            "destination": "/docs/cdp/.md"
+        },
+        {
             "source": "/docs/apps/google-cloud-export",
             "destination": "/docs/cdp/google-cloud-export"
+        },
+        {
+            "source": "/docs/apps/google-cloud-export.md",
+            "destination": "/docs/cdp/google-cloud-export.md"
         },
         {
             "source": "/docs/apps/google-pub-sub-connector",
             "destination": "/docs/cdp/google-pub-sub-connector"
         },
         {
+            "source": "/docs/apps/google-pub-sub-connector.md",
+            "destination": "/docs/cdp/google-pub-sub-connector.md"
+        },
+        {
             "source": "/docs/apps/heartbeat",
             "destination": "/docs/cdp/"
+        },
+        {
+            "source": "/docs/apps/heartbeat.md",
+            "destination": "/docs/cdp/.md"
         },
         {
             "source": "/docs/apps/hubspot-connector",
             "destination": "/docs/cdp/hubspot-connector"
         },
         {
+            "source": "/docs/apps/hubspot-connector.md",
+            "destination": "/docs/cdp/hubspot-connector.md"
+        },
+        {
             "source": "/docs/apps/ingestion-alert",
             "destination": "/docs/cdp/"
+        },
+        {
+            "source": "/docs/apps/ingestion-alert.md",
+            "destination": "/docs/cdp/.md"
         },
         {
             "source": "/docs/apps/intercom",
             "destination": "/docs/cdp/intercom"
         },
         {
+            "source": "/docs/apps/intercom.md",
+            "destination": "/docs/cdp/intercom.md"
+        },
+        {
             "source": "/docs/apps/laudspeaker-connector",
             "destination": "/docs/cdp/laudspeaker-connector"
+        },
+        {
+            "source": "/docs/apps/laudspeaker-connector.md",
+            "destination": "/docs/cdp/laudspeaker-connector.md"
         },
         {
             "source": "/docs/apps/memphis-exporter",
             "destination": "/docs/cdp/memphis-exporter"
         },
         {
+            "source": "/docs/apps/memphis-exporter.md",
+            "destination": "/docs/cdp/memphis-exporter.md"
+        },
+        {
             "source": "/docs/apps/n8n",
             "destination": "/docs/cdp/n8n"
+        },
+        {
+            "source": "/docs/apps/n8n.md",
+            "destination": "/docs/cdp/n8n.md"
         },
         {
             "source": "/docs/apps/orbit",
             "destination": "/docs/cdp/"
         },
         {
+            "source": "/docs/apps/orbit.md",
+            "destination": "/docs/cdp/.md"
+        },
+        {
             "source": "/docs/apps/outfunnel-exporter",
             "destination": "/docs/cdp/outfunnel-exporter"
+        },
+        {
+            "source": "/docs/apps/outfunnel-exporter.md",
+            "destination": "/docs/cdp/outfunnel-exporter.md"
         },
         {
             "source": "/docs/apps/pace-integration",
             "destination": "/docs/cdp/pace-integration"
         },
         {
+            "source": "/docs/apps/pace-integration.md",
+            "destination": "/docs/cdp/pace-integration.md"
+        },
+        {
             "source": "/docs/apps/pagerduty-connector",
             "destination": "/docs/cdp"
+        },
+        {
+            "source": "/docs/apps/pagerduty-connector.md",
+            "destination": "/docs/cdp.md"
         },
         {
             "source": "/docs/apps/patterns-connector",
             "destination": "/docs/cdp/"
         },
         {
+            "source": "/docs/apps/patterns-connector.md",
+            "destination": "/docs/cdp/.md"
+        },
+        {
             "source": "/docs/apps/postgres-export",
             "destination": "/docs/cdp/postgres-export"
+        },
+        {
+            "source": "/docs/apps/postgres-export.md",
+            "destination": "/docs/cdp/postgres-export.md"
         },
         {
             "source": "/docs/apps/property-filter",
             "destination": "/docs/cdp/property-filter"
         },
         {
+            "source": "/docs/apps/property-filter.md",
+            "destination": "/docs/cdp/property-filter.md"
+        },
+        {
             "source": "/docs/apps/property-flattener",
             "destination": "/docs/cdp/"
         },
         {
+            "source": "/docs/apps/property-flattener.md",
+            "destination": "/docs/cdp/.md"
+        },
+        {
             "source": "/docs/apps/redshift-export",
             "destination": "/docs/cdp/redshift-export"
+        },
+        {
+            "source": "/docs/apps/redshift-export.md",
+            "destination": "/docs/cdp/redshift-export.md"
         },
         {
             "source": "/docs/apps/replicator",
@@ -2983,88 +4191,176 @@
             "destination": "/docs/cdp/route-censor"
         },
         {
+            "source": "/docs/apps/route-censor.md",
+            "destination": "/docs/cdp/route-censor.md"
+        },
+        {
             "source": "/docs/apps/rudderstack-export",
             "destination": "/docs/cdp/rudderstack-export"
+        },
+        {
+            "source": "/docs/apps/rudderstack-export.md",
+            "destination": "/docs/cdp/rudderstack-export.md"
         },
         {
             "source": "/docs/apps/rudderstack-import",
             "destination": "/docs/cdp/rudderstack-import"
         },
         {
+            "source": "/docs/apps/rudderstack-import.md",
+            "destination": "/docs/cdp/rudderstack-import.md"
+        },
+        {
             "source": "/docs/apps/s3-export",
             "destination": "/docs/cdp/s3-export"
+        },
+        {
+            "source": "/docs/apps/s3-export.md",
+            "destination": "/docs/cdp/s3-export.md"
         },
         {
             "source": "/docs/apps/salesforce-connector",
             "destination": "/docs/cdp/salesforce-connector"
         },
         {
+            "source": "/docs/apps/salesforce-connector.md",
+            "destination": "/docs/cdp/salesforce-connector.md"
+        },
+        {
             "source": "/docs/apps/schema-enforcer",
             "destination": "/docs/cdp/schema-enforcer"
+        },
+        {
+            "source": "/docs/apps/schema-enforcer.md",
+            "destination": "/docs/cdp/schema-enforcer.md"
         },
         {
             "source": "/docs/apps/segment",
             "destination": "/docs/cdp/segment"
         },
         {
+            "source": "/docs/apps/segment.md",
+            "destination": "/docs/cdp/segment.md"
+        },
+        {
             "source": "/docs/apps/semver-flattener",
             "destination": "/docs/cdp/semver-flattener"
+        },
+        {
+            "source": "/docs/apps/semver-flattener.md",
+            "destination": "/docs/cdp/semver-flattener.md"
         },
         {
             "source": "/docs/apps/sendgrid-connector",
             "destination": "/docs/cdp/sendgrid-connector"
         },
         {
+            "source": "/docs/apps/sendgrid-connector.md",
+            "destination": "/docs/cdp/sendgrid-connector.md"
+        },
+        {
             "source": "/docs/apps/sentry-connector",
             "destination": "/docs/error-tracking"
+        },
+        {
+            "source": "/docs/apps/sentry-connector.md",
+            "destination": "/docs/error-tracking.md"
         },
         {
             "source": "/docs/apps/shopify",
             "destination": "/docs/cdp"
         },
         {
+            "source": "/docs/apps/shopify.md",
+            "destination": "/docs/cdp.md"
+        },
+        {
             "source": "/docs/apps/snowflake-export",
             "destination": "/docs/cdp/snowflake-export"
+        },
+        {
+            "source": "/docs/apps/snowflake-export.md",
+            "destination": "/docs/cdp/snowflake-export.md"
         },
         {
             "source": "/docs/apps/stripe-connector",
             "destination": "/docs/cdp/stripe-connector"
         },
         {
+            "source": "/docs/apps/stripe-connector.md",
+            "destination": "/docs/cdp/stripe-connector.md"
+        },
+        {
             "source": "/docs/apps/taxonomy-standardizer",
             "destination": "/docs/cdp/taxonomy-standardizer"
+        },
+        {
+            "source": "/docs/apps/taxonomy-standardizer.md",
+            "destination": "/docs/cdp/taxonomy-standardizer.md"
         },
         {
             "source": "/docs/apps/timestamp-parser",
             "destination": "/docs/cdp/timestamp-parser"
         },
         {
+            "source": "/docs/apps/timestamp-parser.md",
+            "destination": "/docs/cdp/timestamp-parser.md"
+        },
+        {
             "source": "/docs/apps/twitter-followers",
             "destination": "/docs/cdp/twitter-followers"
+        },
+        {
+            "source": "/docs/apps/twitter-followers.md",
+            "destination": "/docs/cdp/twitter-followers.md"
         },
         {
             "source": "/docs/apps/unduplicator",
             "destination": "/docs/cdp/"
         },
         {
+            "source": "/docs/apps/unduplicator.md",
+            "destination": "/docs/cdp/.md"
+        },
+        {
             "source": "/docs/apps/url-normalizer",
             "destination": "/docs/cdp/url-normalizer"
+        },
+        {
+            "source": "/docs/apps/url-normalizer.md",
+            "destination": "/docs/cdp/url-normalizer.md"
         },
         {
             "source": "/docs/apps/url-query",
             "destination": "/docs/cdp/transformations/posthog-app-url-parameters-to-event-properties"
         },
         {
+            "source": "/docs/apps/url-query.md",
+            "destination": "/docs/cdp/transformations/posthog-app-url-parameters-to-event-properties.md"
+        },
+        {
             "source": "/docs/apps/user-agent-populator",
             "destination": "/docs/cdp/user-agent-populator"
+        },
+        {
+            "source": "/docs/apps/user-agent-populator.md",
+            "destination": "/docs/cdp/user-agent-populator.md"
         },
         {
             "source": "/docs/apps/variance-connector",
             "destination": "/docs/cdp/variance-connector"
         },
         {
+            "source": "/docs/apps/variance-connector.md",
+            "destination": "/docs/cdp/variance-connector.md"
+        },
+        {
             "source": "/docs/apps/zapier-connector",
             "destination": "/docs/cdp/"
+        },
+        {
+            "source": "/docs/apps/zapier-connector.md",
+            "destination": "/docs/cdp/.md"
         },
         {
             "source": "/questions/aliasing-device-i-ds-to-user-i-ds",
@@ -3073,6 +4369,10 @@
         {
             "source": "/docs/data/identify",
             "destination": "/docs/product-analytics/identify"
+        },
+        {
+            "source": "/docs/data/identify.md",
+            "destination": "/docs/product-analytics/identify.md"
         },
         {
             "source": "/questions/how-do-i-trigger-custom-pageview",
@@ -3087,16 +4387,32 @@
             "destination": "/docs/data-warehouse"
         },
         {
+            "source": "/docs/data/data-warehouse.md",
+            "destination": "/docs/data-warehouse.md"
+        },
+        {
             "source": "/docs/apps/zendesk-connector",
             "destination": "/docs/cdp/zendesk-connector"
+        },
+        {
+            "source": "/docs/apps/zendesk-connector.md",
+            "destination": "/docs/cdp/zendesk-connector.md"
         },
         {
             "source": "/docs/data/autocapture",
             "destination": "/docs/product-analytics/autocapture"
         },
         {
+            "source": "/docs/data/autocapture.md",
+            "destination": "/docs/product-analytics/autocapture.md"
+        },
+        {
             "source": "/docs/apps/enabling",
             "destination": "/docs/apps"
+        },
+        {
+            "source": "/docs/apps/enabling.md",
+            "destination": "/docs/apps.md"
         },
         {
             "source": "/docs/integrations",
@@ -3111,8 +4427,16 @@
             "destination": "/docs/cdp"
         },
         {
+            "source": "/docs/cdp/zapier-connector.md",
+            "destination": "/docs/cdp.md"
+        },
+        {
             "source": "/docs/cdp/amazon-kinesis",
             "destination": "/docs/cdp"
+        },
+        {
+            "source": "/docs/cdp/amazon-kinesis.md",
+            "destination": "/docs/cdp.md"
         },
         {
             "source": "/docs/cdp/github-release-tracker",
@@ -3127,8 +4451,16 @@
             "destination": "/docs/cdp"
         },
         {
+            "source": "/docs/cdp/twitter-followers.md",
+            "destination": "/docs/cdp.md"
+        },
+        {
             "source": "/docs/cdp/gitlab-release-tracker",
             "destination": "/docs/cdp"
+        },
+        {
+            "source": "/docs/cdp/gitlab-release-tracker.md",
+            "destination": "/docs/cdp.md"
         },
         {
             "source": "/handbook/growth/marketing/Customer-personas",
@@ -3137,6 +4469,10 @@
         {
             "source": "/docs/cdp/bitbucket-release-tracker",
             "destination": "/docs/cdp"
+        },
+        {
+            "source": "/docs/cdp/bitbucket-release-tracker.md",
+            "destination": "/docs/cdp.md"
         },
         {
             "source": "/handbook/company/strategy",
@@ -3233,6 +4569,10 @@
         {
             "source": "/docs/cdp/shopify",
             "destination": "/docs/cdp"
+        },
+        {
+            "source": "/docs/cdp/shopify.md",
+            "destination": "/docs/cdp.md"
         },
         {
             "source": "/james",
@@ -3335,28 +4675,56 @@
             "destination": "/docs/surveys"
         },
         {
+            "source": "/docs/surveys/manual.md",
+            "destination": "/docs/surveys.md"
+        },
+        {
             "source": "/docs/surveys/setup",
             "destination": "/docs/surveys/installation"
+        },
+        {
+            "source": "/docs/surveys/setup.md",
+            "destination": "/docs/surveys/installation.md"
         },
         {
             "source": "/docs/surveys/new",
             "destination": "/docs/surveys/creating-surveys"
         },
         {
+            "source": "/docs/surveys/new.md",
+            "destination": "/docs/surveys/creating-surveys.md"
+        },
+        {
             "source": "/docs/surveys/targeting",
             "destination": "/docs/surveys/creating-surveys"
+        },
+        {
+            "source": "/docs/surveys/targeting.md",
+            "destination": "/docs/surveys/creating-surveys.md"
         },
         {
             "source": "/docs/surveys/events",
             "destination": "/docs/surveys/implementing-custom-surveys"
         },
         {
+            "source": "/docs/surveys/events.md",
+            "destination": "/docs/surveys/implementing-custom-surveys.md"
+        },
+        {
             "source": "/docs/error-tracking/filter-and-search-issues",
             "destination": "/docs/error-tracking/managing-issues"
         },
         {
+            "source": "/docs/error-tracking/filter-and-search-issues.md",
+            "destination": "/docs/error-tracking/managing-issues.md"
+        },
+        {
             "source": "/docs/error-tracking/external-tracking",
             "destination": "/docs/error-tracking/integrations"
+        },
+        {
+            "source": "/docs/error-tracking/external-tracking.md",
+            "destination": "/docs/error-tracking/integrations.md"
         },
         {
             "source": "/blog/how-we-do-hiring-and-hr-at-posthog",
@@ -3369,6 +4737,10 @@
         {
             "source": "/docs/data/subscriptions",
             "destination": "/docs/product-analytics/subscriptions"
+        },
+        {
+            "source": "/docs/data/subscriptions.md",
+            "destination": "/docs/product-analytics/subscriptions.md"
         },
         {
             "source": "/docs/apps/feedback-widget",
@@ -3387,32 +4759,64 @@
             "destination": "/docs/billing/estimating-usage-costs"
         },
         {
+            "source": "/docs/getting-started/estimating-usage-costs.md",
+            "destination": "/docs/billing/estimating-usage-costs.md"
+        },
+        {
             "source": "/docs/getting-started/actions-and-insights",
             "destination": "/docs/data/actions"
+        },
+        {
+            "source": "/docs/getting-started/actions-and-insights.md",
+            "destination": "/docs/data/actions.md"
         },
         {
             "source": "/docs/getting-started/person-properties",
             "destination": "/docs/data/persons"
         },
         {
+            "source": "/docs/getting-started/person-properties.md",
+            "destination": "/docs/data/persons.md"
+        },
+        {
             "source": "/docs/getting-started/group-analytics",
             "destination": "/docs/product-analytics/group-analytics"
+        },
+        {
+            "source": "/docs/getting-started/group-analytics.md",
+            "destination": "/docs/product-analytics/group-analytics.md"
         },
         {
             "source": "/docs/data/data-management",
             "destination": "/docs/data"
         },
         {
+            "source": "/docs/data/data-management.md",
+            "destination": "/docs/data.md"
+        },
+        {
             "source": "/docs/batch-exports",
             "destination": "/docs/cdp/batch-exports"
+        },
+        {
+            "source": "/docs/batch-exports.md",
+            "destination": "/docs/cdp/batch-exports.md"
         },
         {
             "source": "/docs/batch-exports/s3",
             "destination": "/docs/cdp/batch-exports/s3"
         },
         {
+            "source": "/docs/batch-exports/s3.md",
+            "destination": "/docs/cdp/batch-exports/s3.md"
+        },
+        {
             "source": "/docs/batch-exports/snowflake",
             "destination": "/docs/cdp/batch-exports/snowflake"
+        },
+        {
+            "source": "/docs/batch-exports/snowflake.md",
+            "destination": "/docs/cdp/batch-exports/snowflake.md"
         },
         {
             "source": "/blog/startup-golioth",
@@ -3435,6 +4839,10 @@
             "destination": "/docs/product-analytics/group-analytics"
         },
         {
+            "source": "/docs/cdp/automatic-cohort-creator.md",
+            "destination": "/docs/product-analytics/group-analytics.md"
+        },
+        {
             "source": "/blog/asynchronous-remote-companies",
             "destination": "/founders/asynchronous-remote-companies"
         },
@@ -3451,12 +4859,24 @@
             "destination": "/docs/billing/estimating-usage-costs"
         },
         {
+            "source": "/docs/billing.md",
+            "destination": "/docs/billing/estimating-usage-costs.md"
+        },
+        {
             "source": "/docs/billing-and-payments",
             "destination": "/docs/billing/estimating-usage-costs"
         },
         {
+            "source": "/docs/billing-and-payments.md",
+            "destination": "/docs/billing/estimating-usage-costs.md"
+        },
+        {
             "source": "/docs/billing/annual-plans",
             "destination": "/docs/billing/pre-paid-plans"
+        },
+        {
+            "source": "/docs/billing/annual-plans.md",
+            "destination": "/docs/billing/pre-paid-plans.md"
         },
         {
             "source": "/legal",
@@ -3771,6 +5191,10 @@
             "destination": "/docs/cdp"
         },
         {
+            "source": "/docs/cdp/unduplicator.md",
+            "destination": "/docs/cdp.md"
+        },
+        {
             "source": "/cdp/unduplicator",
             "destination": "/docs/cdp"
         },
@@ -3829,6 +5253,10 @@
         {
             "source": "/docs/migrate/migrate-broken-self-hosted",
             "destination": "/docs/migrate/migrate-to-cloud"
+        },
+        {
+            "source": "/docs/migrate/migrate-broken-self-hosted.md",
+            "destination": "/docs/migrate/migrate-to-cloud.md"
         },
         {
             "source": "/docs/migrate/export-events",
@@ -4059,128 +5487,256 @@
             "destination": "/docs/self-host"
         },
         {
+            "source": "/docs/runbook/upgrading-posthog.md",
+            "destination": "/docs/self-host.md"
+        },
+        {
             "source": "/docs/runbook/upgrade-notes",
             "destination": "/docs/self-host"
+        },
+        {
+            "source": "/docs/runbook/upgrade-notes.md",
+            "destination": "/docs/self-host.md"
         },
         {
             "source": "/docs/runbook",
             "destination": "/docs/self-host"
         },
         {
+            "source": "/docs/runbook.md",
+            "destination": "/docs/self-host.md"
+        },
+        {
             "source": "/docs/runbook/async-migrations",
             "destination": "/docs/self-host"
+        },
+        {
+            "source": "/docs/runbook/async-migrations.md",
+            "destination": "/docs/self-host.md"
         },
         {
             "source": "/docs/runbook/async-migrations/0001-events-sample-by",
             "destination": "/docs/self-host"
         },
         {
+            "source": "/docs/runbook/async-migrations/0001-events-sample-by.md",
+            "destination": "/docs/self-host.md"
+        },
+        {
             "source": "/docs/runbook/async-migrations/0002-events-sample-by",
             "destination": "/docs/self-host"
+        },
+        {
+            "source": "/docs/runbook/async-migrations/0002-events-sample-by.md",
+            "destination": "/docs/self-host.md"
         },
         {
             "source": "/docs/runbook/async-migrations/0003-fill-person-distinct-id2",
             "destination": "/docs/self-host"
         },
         {
+            "source": "/docs/runbook/async-migrations/0003-fill-person-distinct-id2.md",
+            "destination": "/docs/self-host.md"
+        },
+        {
             "source": "/docs/runbook/services/clickhouse",
             "destination": "/docs/self-host"
+        },
+        {
+            "source": "/docs/runbook/services/clickhouse.md",
+            "destination": "/docs/self-host.md"
         },
         {
             "source": "/docs/runbook/services/clickhouse/backup",
             "destination": "/docs/self-host"
         },
         {
+            "source": "/docs/runbook/services/clickhouse/backup.md",
+            "destination": "/docs/self-host.md"
+        },
+        {
             "source": "/docs/runbook/services/clickhouse/debug-hanging-freezing-process",
             "destination": "/docs/self-host"
+        },
+        {
+            "source": "/docs/runbook/services/clickhouse/debug-hanging-freezing-process.md",
+            "destination": "/docs/self-host.md"
         },
         {
             "source": "/docs/runbook/services/clickhouse/sharding-and-replication",
             "destination": "/docs/self-host"
         },
         {
+            "source": "/docs/runbook/services/clickhouse/sharding-and-replication.md",
+            "destination": "/docs/self-host.md"
+        },
+        {
             "source": "/docs/runbook/services/clickhouse/kafka-engine",
             "destination": "/docs/self-host"
+        },
+        {
+            "source": "/docs/runbook/services/clickhouse/kafka-engine.md",
+            "destination": "/docs/self-host.md"
         },
         {
             "source": "/docs/runbook/services/clickhouse/resize-disk",
             "destination": "/docs/self-host"
         },
         {
+            "source": "/docs/runbook/services/clickhouse/resize-disk.md",
+            "destination": "/docs/self-host.md"
+        },
+        {
             "source": "/docs/runbook/services/clickhouse/restore",
             "destination": "/docs/self-host"
+        },
+        {
+            "source": "/docs/runbook/services/clickhouse/restore.md",
+            "destination": "/docs/self-host.md"
         },
         {
             "source": "/docs/runbook/services/clickhouse/vertical-scaling",
             "destination": "/docs/self-host"
         },
         {
+            "source": "/docs/runbook/services/clickhouse/vertical-scaling.md",
+            "destination": "/docs/self-host.md"
+        },
+        {
             "source": "/docs/runbook/services/clickhouse/debugging-load",
             "destination": "/docs/self-host"
+        },
+        {
+            "source": "/docs/runbook/services/clickhouse/debugging-load.md",
+            "destination": "/docs/self-host.md"
         },
         {
             "source": "/docs/runbook/services/kafka",
             "destination": "/docs/self-host"
         },
         {
+            "source": "/docs/runbook/services/kafka.md",
+            "destination": "/docs/self-host.md"
+        },
+        {
             "source": "/docs/runbook/services/kafka/resize-disk",
             "destination": "/docs/self-host"
+        },
+        {
+            "source": "/docs/runbook/services/kafka/resize-disk.md",
+            "destination": "/docs/self-host.md"
         },
         {
             "source": "/docs/runbook/services/kafka/log-retention",
             "destination": "/docs/self-host"
         },
         {
+            "source": "/docs/runbook/services/kafka/log-retention.md",
+            "destination": "/docs/self-host.md"
+        },
+        {
             "source": "/docs/runbook/services/postgresql",
             "destination": "/docs/self-host"
+        },
+        {
+            "source": "/docs/runbook/services/postgresql.md",
+            "destination": "/docs/self-host.md"
         },
         {
             "source": "/docs/runbook/services/postgresql/resize-disk",
             "destination": "/docs/self-host"
         },
         {
+            "source": "/docs/runbook/services/postgresql/resize-disk.md",
+            "destination": "/docs/self-host.md"
+        },
+        {
             "source": "/docs/runbook/services/postgresql/long-migrations",
             "destination": "/docs/self-host"
+        },
+        {
+            "source": "/docs/runbook/services/postgresql/long-migrations.md",
+            "destination": "/docs/self-host.md"
         },
         {
             "source": "/docs/runbook/services/plugin-server",
             "destination": "/docs/self-host"
         },
         {
+            "source": "/docs/runbook/services/plugin-server.md",
+            "destination": "/docs/self-host.md"
+        },
+        {
             "source": "/docs/runbook/services/plugin-server/jobs",
             "destination": "/docs/self-host"
+        },
+        {
+            "source": "/docs/runbook/services/plugin-server/jobs.md",
+            "destination": "/docs/self-host.md"
         },
         {
             "source": "/docs/runbook/services/plugin-server/scheduled-tasks",
             "destination": "/docs/self-host"
         },
         {
+            "source": "/docs/runbook/services/plugin-server/scheduled-tasks.md",
+            "destination": "/docs/self-host.md"
+        },
+        {
             "source": "/docs/runbook/services/minio",
             "destination": "/docs/self-host"
+        },
+        {
+            "source": "/docs/runbook/services/minio.md",
+            "destination": "/docs/self-host.md"
         },
         {
             "source": "/docs/runbook/services/redis",
             "destination": "/docs/self-host"
         },
         {
+            "source": "/docs/runbook/services/redis.md",
+            "destination": "/docs/self-host.md"
+        },
+        {
             "source": "/docs/runbook/services/zookeeper",
             "destination": "/docs/self-host"
+        },
+        {
+            "source": "/docs/runbook/services/zookeeper.md",
+            "destination": "/docs/self-host.md"
         },
         {
             "source": "/docs/runbook/disaster-recovery",
             "destination": "/docs/self-host"
         },
         {
+            "source": "/docs/runbook/disaster-recovery.md",
+            "destination": "/docs/self-host.md"
+        },
+        {
             "source": "/docs/self-host/configure/monitoring-with-grafana",
             "destination": "/docs/self-host"
+        },
+        {
+            "source": "/docs/self-host/configure/monitoring-with-grafana.md",
+            "destination": "/docs/self-host.md"
         },
         {
             "source": "/docs/self-host/configure/using-altinity-cloud",
             "destination": "/docs/self-host"
         },
         {
+            "source": "/docs/self-host/configure/using-altinity-cloud.md",
+            "destination": "/docs/self-host.md"
+        },
+        {
             "source": "/docs/cdp/first-time-event-tracker",
             "destination": "/docs/cdp"
+        },
+        {
+            "source": "/docs/cdp/first-time-event-tracker.md",
+            "destination": "/docs/cdp.md"
         },
         {
             "source": "/cdp/first-time-event-tracker",
@@ -4191,20 +5747,40 @@
             "destination": "/docs/cdp/batch-exports/bigquery"
         },
         {
+            "source": "/docs/cdp/bigquery-export.md",
+            "destination": "/docs/cdp/batch-exports/bigquery.md"
+        },
+        {
             "source": "/docs/cdp/postgres-export",
             "destination": "/docs/cdp/batch-exports/postgres"
+        },
+        {
+            "source": "/docs/cdp/postgres-export.md",
+            "destination": "/docs/cdp/batch-exports/postgres.md"
         },
         {
             "source": "/docs/cdp/s3-export",
             "destination": "/docs/cdp/batch-exports/s3"
         },
         {
+            "source": "/docs/cdp/s3-export.md",
+            "destination": "/docs/cdp/batch-exports/s3.md"
+        },
+        {
             "source": "/docs/cdp/snowflake-export",
             "destination": "/docs/cdp/batch-exports/snowflake"
         },
         {
+            "source": "/docs/cdp/snowflake-export.md",
+            "destination": "/docs/cdp/batch-exports/snowflake.md"
+        },
+        {
             "source": "/docs/cdp/redshift-export",
             "destination": "/docs/cdp/batch-exports/redshift"
+        },
+        {
+            "source": "/docs/cdp/redshift-export.md",
+            "destination": "/docs/cdp/batch-exports/redshift.md"
         },
         {
             "source": "/cdp/redshift-export",
@@ -4219,24 +5795,48 @@
             "destination": "/docs/migrate/migrate-to-cloud"
         },
         {
+            "source": "/docs/cdp/replicator.md",
+            "destination": "/docs/migrate/migrate-to-cloud.md"
+        },
+        {
             "source": "/docs/cdp/segment",
             "destination": "/docs/libraries/segment"
+        },
+        {
+            "source": "/docs/cdp/segment.md",
+            "destination": "/docs/libraries/segment.md"
         },
         {
             "source": "/docs/cdp/sentry-connector",
             "destination": "/docs/error-tracking"
         },
         {
+            "source": "/docs/cdp/sentry-connector.md",
+            "destination": "/docs/error-tracking.md"
+        },
+        {
             "source": "/docs/cdp/n8n",
             "destination": "/docs/libraries/n8n"
+        },
+        {
+            "source": "/docs/cdp/n8n.md",
+            "destination": "/docs/libraries/n8n.md"
         },
         {
             "source": "/docs/cdp/zendesk",
             "destination": "/docs/libraries/zendesk"
         },
         {
+            "source": "/docs/cdp/zendesk.md",
+            "destination": "/docs/libraries/zendesk.md"
+        },
+        {
             "source": "/docs/cdp/rudderstack-import",
             "destination": "/docs/libraries/rudderstack"
+        },
+        {
+            "source": "/docs/cdp/rudderstack-import.md",
+            "destination": "/docs/libraries/rudderstack.md"
         },
         {
             "source": "/cdp/zendesk-connector",
@@ -4245,6 +5845,10 @@
         {
             "source": "/docs/libraries/zendesk",
             "destination": "/docs/cdp"
+        },
+        {
+            "source": "/docs/libraries/zendesk.md",
+            "destination": "/docs/cdp.md"
         },
         {
             "source": "/cdp/snowflake-export",
@@ -4319,6 +5923,10 @@
             "destination": "/docs/cdp/build/tutorial"
         },
         {
+            "source": "/docs/apps/build/tutorial.md",
+            "destination": "/docs/cdp/build/tutorial.md"
+        },
+        {
             "source": "/docs/apps/build/testing",
             "destination": "/docs/cdp/build/reference#writing-tests"
         },
@@ -4331,20 +5939,40 @@
             "destination": "/docs/cdp/build/reference"
         },
         {
+            "source": "/docs/apps/build/reference.md",
+            "destination": "/docs/cdp/build/reference.md"
+        },
+        {
             "source": "/docs/apps/build",
             "destination": "/docs/cdp/build"
+        },
+        {
+            "source": "/docs/apps/build.md",
+            "destination": "/docs/cdp/build.md"
         },
         {
             "source": "/docs/cdp/build/api",
             "destination": "/docs/cdp/build"
         },
         {
+            "source": "/docs/cdp/build/api.md",
+            "destination": "/docs/cdp/build.md"
+        },
+        {
             "source": "/docs/cdp/build/jobs",
             "destination": "/docs/cdp/build"
         },
         {
+            "source": "/docs/cdp/build/jobs.md",
+            "destination": "/docs/cdp/build.md"
+        },
+        {
             "source": "/docs/cdp/enabling",
             "destination": "/docs/cdp/build"
+        },
+        {
+            "source": "/docs/cdp/enabling.md",
+            "destination": "/docs/cdp/build.md"
         },
         {
             "source": "/docs/cdp/build/types",
@@ -4355,16 +5983,32 @@
             "destination": "/docs/cdp/destinations"
         },
         {
+            "source": "/docs/apps.md",
+            "destination": "/docs/cdp/destinations.md"
+        },
+        {
             "source": "/docs/cdp/build/reference",
             "destination": "/docs/cdp/destinations"
+        },
+        {
+            "source": "/docs/cdp/build/reference.md",
+            "destination": "/docs/cdp/destinations.md"
         },
         {
             "source": "/docs/cdp/build",
             "destination": "/docs/cdp/destinations"
         },
         {
+            "source": "/docs/cdp/build.md",
+            "destination": "/docs/cdp/destinations.md"
+        },
+        {
             "source": "/docs/cdp/build/tutorial",
             "destination": "/docs/cdp/destinations"
+        },
+        {
+            "source": "/docs/cdp/build/tutorial.md",
+            "destination": "/docs/cdp/destinations.md"
         },
         {
             "source": "/blog/learnings-from-elon",
@@ -4379,16 +6023,32 @@
             "destination": "/docs/settings/organizations"
         },
         {
+            "source": "/docs/data/organizations-and-projects.md",
+            "destination": "/docs/settings/organizations.md"
+        },
+        {
             "source": "/docs/data/role-based-access",
             "destination": "/docs/settings/role-based-access"
+        },
+        {
+            "source": "/docs/data/role-based-access.md",
+            "destination": "/docs/settings/role-based-access.md"
         },
         {
             "source": "/docs/data/sso",
             "destination": "/docs/settings/sso"
         },
         {
+            "source": "/docs/data/sso.md",
+            "destination": "/docs/settings/sso.md"
+        },
+        {
             "source": "/docs/ab-testing",
             "destination": "/docs/experiments"
+        },
+        {
+            "source": "/docs/ab-testing.md",
+            "destination": "/docs/experiments.md"
         },
         {
             "source": "/handbook/small-teams/product-analytics",
@@ -4487,12 +6147,24 @@
             "destination": "/docs/ai-observability"
         },
         {
+            "source": "/docs/product-analytics/llms.md",
+            "destination": "/docs/ai-observability.md"
+        },
+        {
             "source": "/docs/ai-engineering/llms",
             "destination": "/docs/ai-observability"
         },
         {
+            "source": "/docs/ai-engineering/llms.md",
+            "destination": "/docs/ai-observability.md"
+        },
+        {
             "source": "/docs/product-analytics/trends",
             "destination": "/docs/product-analytics/trends/overview"
+        },
+        {
+            "source": "/docs/product-analytics/trends.md",
+            "destination": "/docs/product-analytics/trends/overview.md"
         },
         {
             "source": "/docs/product-analytics/calendar-heatmap",
@@ -4587,80 +6259,160 @@
             "destination": "/docs/cdp/batch-exports"
         },
         {
+            "source": "/docs/cdp/airbyte-export.md",
+            "destination": "/docs/cdp/batch-exports.md"
+        },
+        {
             "source": "/docs/cdp/avo-inspector",
             "destination": "/docs/cdp/destinations/avo"
+        },
+        {
+            "source": "/docs/cdp/avo-inspector.md",
+            "destination": "/docs/cdp/destinations/avo.md"
         },
         {
             "source": "/docs/cdp/customer-io",
             "destination": "/docs/cdp/destinations/customerio"
         },
         {
+            "source": "/docs/cdp/customer-io.md",
+            "destination": "/docs/cdp/destinations/customerio.md"
+        },
+        {
             "source": "/docs/cdp/engage-connector",
             "destination": "/docs/cdp/destinations/engage"
+        },
+        {
+            "source": "/docs/cdp/engage-connector.md",
+            "destination": "/docs/cdp/destinations/engage.md"
         },
         {
             "source": "/docs/cdp/google-pub-sub-connector",
             "destination": "/docs/cdp/destinations/google-pubsub"
         },
         {
+            "source": "/docs/cdp/google-pub-sub-connector.md",
+            "destination": "/docs/cdp/destinations/google-pubsub.md"
+        },
+        {
             "source": "/docs/cdp/google-cloud-export",
             "destination": "/docs/cdp/destinations/google-cloud-storage"
+        },
+        {
+            "source": "/docs/cdp/google-cloud-export.md",
+            "destination": "/docs/cdp/destinations/google-cloud-storage.md"
         },
         {
             "source": "/docs/cdp/hubspot-connector",
             "destination": "/docs/cdp/destinations/hubspot"
         },
         {
+            "source": "/docs/cdp/hubspot-connector.md",
+            "destination": "/docs/cdp/destinations/hubspot.md"
+        },
+        {
             "source": "/docs/cdp/intercom",
             "destination": "/docs/cdp/destinations/intercom"
+        },
+        {
+            "source": "/docs/cdp/intercom.md",
+            "destination": "/docs/cdp/destinations/intercom.md"
         },
         {
             "source": "/docs/cdp/laudspeaker-connector",
             "destination": "/docs/cdp/destinations/laudspeaker"
         },
         {
+            "source": "/docs/cdp/laudspeaker-connector.md",
+            "destination": "/docs/cdp/destinations/laudspeaker.md"
+        },
+        {
             "source": "/docs/cdp/rudderstack-export",
             "destination": "/docs/cdp/destinations/rudderstack"
+        },
+        {
+            "source": "/docs/cdp/rudderstack-export.md",
+            "destination": "/docs/cdp/destinations/rudderstack.md"
         },
         {
             "source": "/docs/cdp/salesforce-connector",
             "destination": "/docs/cdp/destinations/salesforce"
         },
         {
+            "source": "/docs/cdp/salesforce-connector.md",
+            "destination": "/docs/cdp/destinations/salesforce.md"
+        },
+        {
             "source": "/docs/cdp/sendgrid-connector",
             "destination": "/docs/cdp/destinations/sendgrid"
+        },
+        {
+            "source": "/docs/cdp/sendgrid-connector.md",
+            "destination": "/docs/cdp/destinations/sendgrid.md"
         },
         {
             "source": "/docs/cdp/variance-connector",
             "destination": "/docs/cdp/destinations"
         },
         {
+            "source": "/docs/cdp/variance-connector.md",
+            "destination": "/docs/cdp/destinations.md"
+        },
+        {
             "source": "/docs/cdp/pace-integration",
             "destination": "/docs/cdp/destinations"
+        },
+        {
+            "source": "/docs/cdp/pace-integration.md",
+            "destination": "/docs/cdp/destinations.md"
         },
         {
             "source": "/docs/cdp/memphis-exporter",
             "destination": "/docs/cdp/destinations"
         },
         {
+            "source": "/docs/cdp/memphis-exporter.md",
+            "destination": "/docs/cdp/destinations.md"
+        },
+        {
             "source": "/docs/cdp/outfunnel-exporter",
             "destination": "/docs/cdp/destinations"
+        },
+        {
+            "source": "/docs/cdp/outfunnel-exporter.md",
+            "destination": "/docs/cdp/destinations.md"
         },
         {
             "source": "/docs/cdp/route-censor",
             "destination": "/docs/cdp"
         },
         {
+            "source": "/docs/cdp/route-censor.md",
+            "destination": "/docs/cdp.md"
+        },
+        {
             "source": "/docs/cdp/semver-flattener",
             "destination": "/docs/cdp"
+        },
+        {
+            "source": "/docs/cdp/semver-flattener.md",
+            "destination": "/docs/cdp.md"
         },
         {
             "source": "/docs/experiments/experiment-significance",
             "destination": "/docs/experiments/statistics"
         },
         {
+            "source": "/docs/experiments/experiment-significance.md",
+            "destination": "/docs/experiments/statistics.md"
+        },
+        {
             "source": "/docs/experiments/frequentist-method",
             "destination": "/docs/experiments/statistics-frequentist"
+        },
+        {
+            "source": "/docs/experiments/frequentist-method.md",
+            "destination": "/docs/experiments/statistics-frequentist.md"
         },
         {
             "source": "/handbook/product/in-app-prompts",
@@ -4671,16 +6423,32 @@
             "destination": "/docs/cdp/destinations"
         },
         {
+            "source": "/docs/webhooks.md",
+            "destination": "/docs/cdp/destinations.md"
+        },
+        {
             "source": "/docs/webhooks/slack",
             "destination": "/docs/cdp/destinations/slack"
+        },
+        {
+            "source": "/docs/webhooks/slack.md",
+            "destination": "/docs/cdp/destinations/slack.md"
         },
         {
             "source": "/docs/webhooks/microsoft-teams",
             "destination": "/docs/cdp/destinations/webhook"
         },
         {
+            "source": "/docs/webhooks/microsoft-teams.md",
+            "destination": "/docs/cdp/destinations/webhook.md"
+        },
+        {
             "source": "/docs/webhooks/discord",
             "destination": "/docs/cdp/destinations/webhook"
+        },
+        {
+            "source": "/docs/webhooks/discord.md",
+            "destination": "/docs/cdp/destinations/webhook.md"
         },
         {
             "source": "/teams/website-docs",
@@ -4699,12 +6467,20 @@
             "destination": "/docs/session-replay/installation/android"
         },
         {
+            "source": "/docs/session-replay/android.md",
+            "destination": "/docs/session-replay/installation/android.md"
+        },
+        {
             "source": "/questions/how-to-get-current-user-identity",
             "destination": "/docs/product-analytics/identify#get-the-current-users-distinct-id"
         },
         {
             "source": "/docs/session-replay/ios",
             "destination": "/docs/session-replay/installation/ios"
+        },
+        {
+            "source": "/docs/session-replay/ios.md",
+            "destination": "/docs/session-replay/installation/ios.md"
         },
         {
             "source": "/questions/how-to-group-events",
@@ -4723,6 +6499,10 @@
             "destination": "/docs/feature-flags/best-practices"
         },
         {
+            "source": "/docs/feature-flags/production-ready.md",
+            "destination": "/docs/feature-flags/best-practices.md"
+        },
+        {
             "source": "/product-engineers/5-ways-to-improve-analytics-data",
             "destination": "/docs/product-analytics/best-practices"
         },
@@ -4731,12 +6511,20 @@
             "destination": "/docs/session-replay/installation/react-native"
         },
         {
+            "source": "/docs/session-replay/react-native.md",
+            "destination": "/docs/session-replay/installation/react-native.md"
+        },
+        {
             "source": "/teams/comms",
             "destination": "/teams/support"
         },
         {
             "source": "/docs/session-replay/flutter",
             "destination": "/docs/session-replay/installation/flutter"
+        },
+        {
+            "source": "/docs/session-replay/flutter.md",
+            "destination": "/docs/session-replay/installation/flutter.md"
         },
         {
             "source": "/teams/customer-comms",
@@ -4756,80 +6544,160 @@
             "destination": "/docs/cdp/sources/azure-blob"
         },
         {
+            "source": "/docs/data-warehouse/setup/azure-blob.md",
+            "destination": "/docs/cdp/sources/azure-blob.md"
+        },
+        {
             "source": "/docs/data-warehouse/setup/azure-db",
             "destination": "/docs/cdp/sources/azure-db"
+        },
+        {
+            "source": "/docs/data-warehouse/setup/azure-db.md",
+            "destination": "/docs/cdp/sources/azure-db.md"
         },
         {
             "source": "/docs/data-warehouse/sources/azure-db",
             "destination": "/docs/data-warehouse/sources/microsoft-sql-server"
         },
         {
+            "source": "/docs/data-warehouse/sources/azure-db.md",
+            "destination": "/docs/data-warehouse/sources/microsoft-sql-server.md"
+        },
+        {
             "source": "/docs/cdp/sources/azure-db",
             "destination": "/docs/cdp/sources/microsoft-sql-server"
+        },
+        {
+            "source": "/docs/cdp/sources/azure-db.md",
+            "destination": "/docs/cdp/sources/microsoft-sql-server.md"
         },
         {
             "source": "/docs/data-warehouse/sources/temporal",
             "destination": "/docs/data-warehouse/sources/temporalio"
         },
         {
+            "source": "/docs/data-warehouse/sources/temporal.md",
+            "destination": "/docs/data-warehouse/sources/temporalio.md"
+        },
+        {
             "source": "/docs/cdp/sources/temporal",
             "destination": "/docs/cdp/sources/temporalio"
+        },
+        {
+            "source": "/docs/cdp/sources/temporal.md",
+            "destination": "/docs/cdp/sources/temporalio.md"
         },
         {
             "source": "/docs/data-warehouse/setup/chargebee",
             "destination": "/docs/cdp/sources/chargebee"
         },
         {
+            "source": "/docs/data-warehouse/setup/chargebee.md",
+            "destination": "/docs/cdp/sources/chargebee.md"
+        },
+        {
             "source": "/docs/data-warehouse/setup/gcs",
             "destination": "/docs/cdp/sources/gcs"
+        },
+        {
+            "source": "/docs/data-warehouse/setup/gcs.md",
+            "destination": "/docs/cdp/sources/gcs.md"
         },
         {
             "source": "/docs/data-warehouse/setup/hubspot",
             "destination": "/docs/cdp/sources/hubspot"
         },
         {
+            "source": "/docs/data-warehouse/setup/hubspot.md",
+            "destination": "/docs/cdp/sources/hubspot.md"
+        },
+        {
             "source": "/docs/data-warehouse/setup/index",
             "destination": "/docs/cdp/sources"
+        },
+        {
+            "source": "/docs/data-warehouse/setup/index.md",
+            "destination": "/docs/cdp/sources.md"
         },
         {
             "source": "/docs/data-warehouse/setup/mysql",
             "destination": "/docs/cdp/sources/mysql"
         },
         {
+            "source": "/docs/data-warehouse/setup/mysql.md",
+            "destination": "/docs/cdp/sources/mysql.md"
+        },
+        {
             "source": "/docs/data-warehouse/setup/postgres",
             "destination": "/docs/cdp/sources/postgres"
+        },
+        {
+            "source": "/docs/data-warehouse/setup/postgres.md",
+            "destination": "/docs/cdp/sources/postgres.md"
         },
         {
             "source": "/docs/data-warehouse/setup/r2",
             "destination": "/docs/cdp/sources/r2"
         },
         {
+            "source": "/docs/data-warehouse/setup/r2.md",
+            "destination": "/docs/cdp/sources/r2.md"
+        },
+        {
             "source": "/docs/data-warehouse/setup/s3",
             "destination": "/docs/cdp/sources/s3"
+        },
+        {
+            "source": "/docs/data-warehouse/setup/s3.md",
+            "destination": "/docs/cdp/sources/s3.md"
         },
         {
             "source": "/docs/data-warehouse/setup/salesforce",
             "destination": "/docs/cdp/sources/salesforce"
         },
         {
+            "source": "/docs/data-warehouse/setup/salesforce.md",
+            "destination": "/docs/cdp/sources/salesforce.md"
+        },
+        {
             "source": "/docs/data-warehouse/setup/snowflake",
             "destination": "/docs/cdp/sources/snowflake"
+        },
+        {
+            "source": "/docs/data-warehouse/setup/snowflake.md",
+            "destination": "/docs/cdp/sources/snowflake.md"
         },
         {
             "source": "/docs/data-warehouse/setup/stripe",
             "destination": "/docs/cdp/sources/stripe"
         },
         {
+            "source": "/docs/data-warehouse/setup/stripe.md",
+            "destination": "/docs/cdp/sources/stripe.md"
+        },
+        {
             "source": "/docs/data-warehouse/setup/vitally",
             "destination": "/docs/cdp/sources/vitally"
+        },
+        {
+            "source": "/docs/data-warehouse/setup/vitally.md",
+            "destination": "/docs/cdp/sources/vitally.md"
         },
         {
             "source": "/docs/data-warehouse/setup/zendesk",
             "destination": "/docs/cdp/sources/zendesk"
         },
         {
+            "source": "/docs/data-warehouse/setup/zendesk.md",
+            "destination": "/docs/cdp/sources/zendesk.md"
+        },
+        {
             "source": "/docs/data-warehouse/setup/",
             "destination": "/docs/data-warehouse/query/"
+        },
+        {
+            "source": "/docs/data-warehouse/setup/.md",
+            "destination": "/docs/data-warehouse/query/.md"
         },
         {
             "source": "/handbook/growth/marketing/content",
@@ -4896,8 +6764,16 @@
             "destination": "/docs/settings/organizations"
         },
         {
+            "source": "/docs/settings/organizations-and-projects.md",
+            "destination": "/docs/settings/organizations.md"
+        },
+        {
             "source": "/docs/settings/role-based-access",
             "destination": "/docs/settings/access-control"
+        },
+        {
+            "source": "/docs/settings/role-based-access.md",
+            "destination": "/docs/settings/access-control.md"
         },
         {
             "source": "/community/profiles/59",
@@ -5004,44 +6880,88 @@
             "destination": "/docs/cdp/transformations/posthog-plugin-geoip"
         },
         {
+            "source": "/docs/cdp/geoip-enrichment.md",
+            "destination": "/docs/cdp/transformations/posthog-plugin-geoip.md"
+        },
+        {
             "source": "/docs/cdp/timestamp-parser",
             "destination": "/docs/cdp/transformations/timestamp-parser-plugin"
+        },
+        {
+            "source": "/docs/cdp/timestamp-parser.md",
+            "destination": "/docs/cdp/transformations/timestamp-parser-plugin.md"
         },
         {
             "source": "/docs/cdp/url-normalizer",
             "destination": "/docs/cdp/transformations/posthog-url-normalizer-plugin"
         },
         {
+            "source": "/docs/cdp/url-normalizer.md",
+            "destination": "/docs/cdp/transformations/posthog-url-normalizer-plugin.md"
+        },
+        {
             "source": "/docs/cdp/user-agent-populator",
             "destination": "/docs/cdp/transformations/user-agent-plugin"
+        },
+        {
+            "source": "/docs/cdp/user-agent-populator.md",
+            "destination": "/docs/cdp/transformations/user-agent-plugin.md"
         },
         {
             "source": "/docs/cdp/property-filter",
             "destination": "/docs/cdp/transformations/property-filter-plugin"
         },
         {
+            "source": "/docs/cdp/property-filter.md",
+            "destination": "/docs/cdp/transformations/property-filter-plugin.md"
+        },
+        {
             "source": "/docs/cdp/taxonomy-standardizer",
             "destination": "/docs/cdp/transformations/taxonomy-plugin"
+        },
+        {
+            "source": "/docs/cdp/taxonomy-standardizer.md",
+            "destination": "/docs/cdp/transformations/taxonomy-plugin.md"
         },
         {
             "source": "/docs/cdp/downsampling",
             "destination": "/docs/cdp/transformations/downsampling-plugin"
         },
         {
+            "source": "/docs/cdp/downsampling.md",
+            "destination": "/docs/cdp/transformations/downsampling-plugin.md"
+        },
+        {
             "source": "/docs/cdp/filter-out",
             "destination": "/docs/cdp/transformations/posthog-filter-out-plugin"
+        },
+        {
+            "source": "/docs/cdp/filter-out.md",
+            "destination": "/docs/cdp/transformations/posthog-filter-out-plugin.md"
         },
         {
             "source": "/docs/web-analytics/revenue-tracking",
             "destination": "/docs/revenue-analytics"
         },
         {
+            "source": "/docs/web-analytics/revenue-tracking.md",
+            "destination": "/docs/revenue-analytics.md"
+        },
+        {
             "source": "/docs/web-analytics/revenue-analytics",
             "destination": "/docs/revenue-analytics"
         },
         {
+            "source": "/docs/web-analytics/revenue-analytics.md",
+            "destination": "/docs/revenue-analytics.md"
+        },
+        {
             "source": "/docs/revenue-analytics/dashboard",
             "destination": "/docs/revenue-analytics"
+        },
+        {
+            "source": "/docs/revenue-analytics/dashboard.md",
+            "destination": "/docs/revenue-analytics.md"
         },
         {
             "source": "/revenue-analytics",
@@ -5092,6 +7012,10 @@
             "destination": "/docs/surveys/destinations"
         },
         {
+            "source": "/docs/surveys/webhook.md",
+            "destination": "/docs/surveys/destinations.md"
+        },
+        {
             "source": "/heysf",
             "destination": "/?utm_source=billboard&utm_campaign=may25-triples"
         },
@@ -5108,8 +7032,16 @@
             "destination": "/docs/api/users"
         },
         {
+            "source": "/docs/api/user.md",
+            "destination": "/docs/api/users.md"
+        },
+        {
             "source": "/docs/api/decide",
             "destination": "/docs/api/flags"
+        },
+        {
+            "source": "/docs/api/decide.md",
+            "destination": "/docs/api/flags.md"
         },
         {
             "source": "/docs/privacy/data-deletion",
@@ -5168,6 +7100,10 @@
             "destination": "/docs/cdp/transformations/posthog-app-url-parameters-to-event-properties"
         },
         {
+            "source": "/docs/cdp/url-query.md",
+            "destination": "/docs/cdp/transformations/posthog-app-url-parameters-to-event-properties.md"
+        },
+        {
             "source": "/teams/cs-onboarding",
             "destination": "/teams/customer-success"
         },
@@ -5176,76 +7112,152 @@
             "destination": "/docs/error-tracking/issues-and-exceptions"
         },
         {
+            "source": "/docs/error-tracking/issues.md",
+            "destination": "/docs/error-tracking/issues-and-exceptions.md"
+        },
+        {
             "source": "/docs/error-tracking/nextjs",
             "destination": "/docs/error-tracking/installation/nextjs"
+        },
+        {
+            "source": "/docs/error-tracking/nextjs.md",
+            "destination": "/docs/error-tracking/installation/nextjs.md"
         },
         {
             "source": "/docs/error-tracking/installation/nuxt",
             "destination": "/docs/error-tracking/installation/nuxt-3-7"
         },
         {
+            "source": "/docs/error-tracking/installation/nuxt.md",
+            "destination": "/docs/error-tracking/installation/nuxt-3-7.md"
+        },
+        {
             "source": "/docs/ai-engineering/observability",
             "destination": "/docs/ai-observability/start-here"
+        },
+        {
+            "source": "/docs/ai-engineering/observability.md",
+            "destination": "/docs/ai-observability/start-here.md"
         },
         {
             "source": "/docs/ai-engineering/llm-insights",
             "destination": "/docs/ai-observability/start-here"
         },
         {
+            "source": "/docs/ai-engineering/llm-insights.md",
+            "destination": "/docs/ai-observability/start-here.md"
+        },
+        {
             "source": "/docs/ai-engineering/tutorials",
             "destination": "/docs/ai-observability/tutorials"
+        },
+        {
+            "source": "/docs/ai-engineering/tutorials.md",
+            "destination": "/docs/ai-observability/tutorials.md"
         },
         {
             "source": "/docs/ai-engineering/traces-generations",
             "destination": "/docs/ai-observability/generations"
         },
         {
+            "source": "/docs/ai-engineering/traces-generations.md",
+            "destination": "/docs/ai-observability/generations.md"
+        },
+        {
             "source": "/docs/ai-engineering/dashboard",
             "destination": "/docs/ai-observability/dashboard"
+        },
+        {
+            "source": "/docs/ai-engineering/dashboard.md",
+            "destination": "/docs/ai-observability/dashboard.md"
         },
         {
             "source": "/docs/ai-engineering/langfuse-posthog",
             "destination": "/docs/ai-observability/integrations/langfuse-posthog"
         },
         {
+            "source": "/docs/ai-engineering/langfuse-posthog.md",
+            "destination": "/docs/ai-observability/integrations/langfuse-posthog.md"
+        },
+        {
             "source": "/docs/ai-engineering/helicone-posthog",
             "destination": "/docs/ai-observability/integrations/helicone-posthog"
+        },
+        {
+            "source": "/docs/ai-engineering/helicone-posthog.md",
+            "destination": "/docs/ai-observability/integrations/helicone-posthog.md"
         },
         {
             "source": "/docs/ai-engineering/keywords-ai-posthog",
             "destination": "/docs/ai-observability/integrations/keywords-ai-posthog"
         },
         {
+            "source": "/docs/ai-engineering/keywords-ai-posthog.md",
+            "destination": "/docs/ai-observability/integrations/keywords-ai-posthog.md"
+        },
+        {
             "source": "/docs/ai-engineering/traceloop-posthog",
             "destination": "/docs/ai-observability/integrations/traceloop-posthog"
+        },
+        {
+            "source": "/docs/ai-engineering/traceloop-posthog.md",
+            "destination": "/docs/ai-observability/integrations/traceloop-posthog.md"
         },
         {
             "source": "/docs/llm-analytics/manual-capture",
             "destination": "/docs/ai-observability/installation/manual-capture"
         },
         {
+            "source": "/docs/llm-analytics/manual-capture.md",
+            "destination": "/docs/ai-observability/installation/manual-capture.md"
+        },
+        {
             "source": "/docs/ai-evals/evaluations",
             "destination": "/docs/ai-evals"
+        },
+        {
+            "source": "/docs/ai-evals/evaluations.md",
+            "destination": "/docs/ai-evals.md"
         },
         {
             "source": "/docs/prompt-management/prompts",
             "destination": "/docs/prompt-management"
         },
         {
+            "source": "/docs/prompt-management/prompts.md",
+            "destination": "/docs/prompt-management.md"
+        },
+        {
             "source": "/docs/llm-analytics/evaluations",
             "destination": "/docs/ai-evals"
+        },
+        {
+            "source": "/docs/llm-analytics/evaluations.md",
+            "destination": "/docs/ai-evals.md"
         },
         {
             "source": "/docs/llm-analytics/trace-reviews",
             "destination": "/docs/ai-observability/trace-reviews"
         },
         {
+            "source": "/docs/llm-analytics/trace-reviews.md",
+            "destination": "/docs/ai-observability/trace-reviews.md"
+        },
+        {
             "source": "/docs/llm-analytics/prompts",
             "destination": "/docs/prompt-management"
         },
         {
+            "source": "/docs/llm-analytics/prompts.md",
+            "destination": "/docs/prompt-management.md"
+        },
+        {
             "source": "/docs/llm-analytics/skills-store",
             "destination": "/docs/ai-engineering/skills-store"
+        },
+        {
+            "source": "/docs/llm-analytics/skills-store.md",
+            "destination": "/docs/ai-engineering/skills-store.md"
         },
         {
             "source": "/docs/llm-analytics/:path*",
@@ -5254,6 +7266,10 @@
         {
             "source": "/docs/llm-analytics",
             "destination": "/docs/ai-observability"
+        },
+        {
+            "source": "/docs/llm-analytics.md",
+            "destination": "/docs/ai-observability.md"
         },
         {
             "source": "/llm-analytics",
@@ -5312,8 +7328,16 @@
             "destination": "/docs/posthog-ai"
         },
         {
+            "source": "/docs/max-ai.md",
+            "destination": "/docs/posthog-ai.md"
+        },
+        {
             "source": "/docs/libraries/js/features",
             "destination": "/docs/libraries/js/usage"
+        },
+        {
+            "source": "/docs/libraries/js/features.md",
+            "destination": "/docs/libraries/js/usage.md"
         },
         {
             "source": "/handbook/engineering/on-call-rotation",
@@ -5384,36 +7408,72 @@
             "destination": "/docs/error-tracking/troubleshooting"
         },
         {
+            "source": "/docs/error-tracking/common-questions.md",
+            "destination": "/docs/error-tracking/troubleshooting.md"
+        },
+        {
             "source": "/docs/web-analytics/faq",
             "destination": "/docs/web-analytics/troubleshooting"
+        },
+        {
+            "source": "/docs/web-analytics/faq.md",
+            "destination": "/docs/web-analytics/troubleshooting.md"
         },
         {
             "source": "/docs/feature-flags/common-questions",
             "destination": "/docs/feature-flags/troubleshooting"
         },
         {
+            "source": "/docs/feature-flags/common-questions.md",
+            "destination": "/docs/feature-flags/troubleshooting.md"
+        },
+        {
             "source": "/docs/experiments/common-questions",
             "destination": "/docs/experiments/troubleshooting"
+        },
+        {
+            "source": "/docs/experiments/common-questions.md",
+            "destination": "/docs/experiments/troubleshooting.md"
         },
         {
             "source": "/docs/cdp/common-questions",
             "destination": "/docs/cdp/troubleshooting"
         },
         {
+            "source": "/docs/cdp/common-questions.md",
+            "destination": "/docs/cdp/troubleshooting.md"
+        },
+        {
             "source": "/docs/data-warehouse/common-questions",
             "destination": "/docs/data-warehouse/troubleshooting"
+        },
+        {
+            "source": "/docs/data-warehouse/common-questions.md",
+            "destination": "/docs/data-warehouse/troubleshooting.md"
         },
         {
             "source": "/docs/revenue-analytics/common-questions",
             "destination": "/docs/revenue-analytics/troubleshooting"
         },
         {
+            "source": "/docs/revenue-analytics/common-questions.md",
+            "destination": "/docs/revenue-analytics/troubleshooting.md"
+        },
+        {
             "source": "/docs/customer-analytics/faq",
             "destination": "/docs/customer-analytics/troubleshooting"
         },
         {
+            "source": "/docs/customer-analytics/faq.md",
+            "destination": "/docs/customer-analytics/troubleshooting.md"
+        },
+        {
             "source": "/docs/error-tracking/cutting-costs",
             "destination": "/docs/error-tracking/pricing"
+        },
+        {
+            "source": "/docs/error-tracking/cutting-costs.md",
+            "destination": "/docs/error-tracking/pricing.md"
         },
         {
             "source": "/blog/what-is-a-product-engineer",
@@ -5434,6 +7494,10 @@
         {
             "source": "/docs/session-replay/start-here",
             "destination": "/docs/session-replay"
+        },
+        {
+            "source": "/docs/session-replay/start-here.md",
+            "destination": "/docs/session-replay.md"
         },
         {
             "source": "/handbook/strategy/brand",
@@ -5469,6 +7533,11 @@
             "statusCode": 301
         },
         {
+            "source": "/docs/feature-flags/create-flags-mcp.md",
+            "destination": "/docs/feature-flags/surfaces/mcp.md",
+            "statusCode": 301
+        },
+        {
             "source": "/docs/logs/debugging-with-mcp",
             "destination": "/docs/logs/surfaces/mcp",
             "statusCode": 301
@@ -5479,8 +7548,18 @@
             "statusCode": 301
         },
         {
+            "source": "/docs/logs/debug-logs-mcp.md",
+            "destination": "/docs/logs/surfaces/mcp.md",
+            "statusCode": 301
+        },
+        {
             "source": "/docs/logs/search-logs-ai",
             "destination": "/docs/logs/explain-logs-ai",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/logs/search-logs-ai.md",
+            "destination": "/docs/logs/explain-logs-ai.md",
             "statusCode": 301
         }
     ]
